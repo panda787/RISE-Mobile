@@ -1,0 +1,974 @@
+﻿Log file open, 01/23/18 17:49:54
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: RISE_GAME
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(915157218) SRandInit(915157218).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.801666
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogHMD: Failed initializing OVRPlugin 1.15.0
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.23-21.50.01:696][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-21.50.01:696][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.23-21.50.01:988][  0]LogInit: Computer: DESKTOP-SJI2LPG
+[2018.01.23-21.50.01:988][  0]LogInit: User: isma0
+[2018.01.23-21.50.01:988][  0]LogInit: CPU Page size=4096, Cores=2
+[2018.01.23-21.50.01:988][  0]LogInit: High frequency timer resolution =2.531249 MHz
+[2018.01.23-21.50.01:990][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2018.01.23-21.50.02:001][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.23-21.50.02:001][  0]LogMemory: Process Physical Memory: 280.56 MB used, 280.56 MB peak
+[2018.01.23-21.50.02:001][  0]LogMemory: Process Virtual Memory: 277.22 MB used, 277.22 MB peak
+[2018.01.23-21.50.02:001][  0]LogMemory: Physical Memory: 3078.37 MB used,  9073.58 MB free, 12151.95 MB total
+[2018.01.23-21.50.02:001][  0]LogMemory: Virtual Memory: 731.96 MB used,  9073.58 MB free, 134217728.00 MB total
+[2018.01.23-21.50.06:194][  0]LogInit: Using OS detected language (en-US).
+[2018.01.23-21.50.06:194][  0]LogInit: Using OS detected locale (en-US).
+[2018.01.23-21.50.06:524][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.23-21.50.10:035][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.23-21.50.10:154][  0]LogD3D11RHI:    0. 'NVIDIA GeForce 940MX' (Feature Level 11_0)
+[2018.01.23-21.50.10:154][  0]LogD3D11RHI:       2019/0/6075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.23-21.50.10:190][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2018.01.23-21.50.10:190][  0]LogD3D11RHI:       128/0/6075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2018.01.23-21.50.10:194][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.23-21.50.10:195][  0]LogD3D11RHI:       0/0/6075 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.23-21.50.10:195][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.23-21.50.10:204][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.23-21.50.10:204][  0]LogD3D11RHI:     GPU DeviceId: 0x179c (for the marketing name, search the web for "GPU Device Id")
+[2018.01.23-21.50.10:204][  0]LogWindows: EnumDisplayDevices:
+[2018.01.23-21.50.10:204][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2018.01.23-21.50.10:204][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.01.23-21.50.10:204][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2018.01.23-21.50.10:205][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.23-21.50.10:205][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce 940MX
+[2018.01.23-21.50.10:205][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.23-21.50.10:205][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.23-21.50.10:205][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.23-21.50.10:291][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.23-21.50.10:821][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.23-21.50.10:887][  0]LogShaderCompilers: Guid format shader working directory is -31 characters bigger than the processId version (../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Intermediate/Shaders/WorkingDirectory/9568/).
+[2018.01.23-21.50.10:888][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/isma0/AppData/Local/Temp/UnrealShaderWorkingDir/E1EAEA254EBEA355A974279669066147/'.
+[2018.01.23-21.50.10:926][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.23-21.50.16:322][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.23-21.50.16:375][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.23-21.50.16:428][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.23-21.50.16:488][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.23-21.50.16:608][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.23-21.50.16:686][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.23-21.50.16:749][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.23-21.50.16:819][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.23-21.50.16:910][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.23-21.50.16:987][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.23-21.50.17:066][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.23-21.50.17:152][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.23-21.50.17:226][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.23-21.50.17:338][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.23-21.50.17:442][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.23-21.50.17:595][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.23-21.50.17:595][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.23-21.50.17:666][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.23-21.50.17:895][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.23-21.50.17:938][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.23-21.50.17:992][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.23-21.50.18:055][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.23-21.50.18:148][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.23-21.50.18:243][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.23-21.50.18:243][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.23-21.50.19:873][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: Loaded boot cache 0.99s 93MB C:/Users/isma0/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/isma0/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.23-21.50.20:877][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.23-21.50.20:951][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.23-21.50.21:005][  0]LogDerivedDataCache: Using Local data cache path C:/Users/isma0/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.23-21.50.21:129][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.23-21.50.21:239][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.23-21.50.21:324][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-21.50.21:335][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.23-21.50.32:373][  0]LogAssetRegistry: FAssetRegistry took 0.0376 seconds to start up
+[2018.01.23-21.50.35:421][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.23-21.50.40:905][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.23-21.50.42:582][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.23-21.50.42:697][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.23-21.50.42:697][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.23-21.50.42:697][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.23-21.50.42:698][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.23-21.50.42:698][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.23-21.50.46:643][  0]LogNetVersion: RISE_GAME , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1739909859)
+[2018.01.23-21.50.48:767][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.215210 seconds
+[2018.01.23-21.50.48:786][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.23-21.50.48:786][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.01.23-21.50.48:786][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.23-21.50.48:949][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.23-21.51.23:276][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.23-21.51.23:394][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.23-21.51.25:817][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.23-21.51.26:978][  0]SourceControl: Source control is disabled
+[2018.01.23-21.51.26:978][  0]SourceControl: Source control is disabled
+[2018.01.23-21.51.27:107][  0]SourceControl: Source control is disabled
+[2018.01.23-21.51.27:242][  0]SourceControl: Source control is disabled
+[2018.01.23-21.51.28:797][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.23-21.51.29:205][  0]LogOcInput: OculusInput pre-init called
+[2018.01.23-21.51.30:172][  0]LogEngine: Initializing Engine...
+[2018.01.23-21.51.30:208][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.23-21.51.31:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.23-21.51.31:202][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.23-21.51.31:876][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.23-21.51.32:135][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.23-21.51.32:588][  0]LogInit: FAudioDevice initialized.
+[2018.01.23-21.51.32:836][  0]LogDerivedDataCache: Saved boot cache 0.25s 93MB C:/Users/isma0/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.23-21.51.32:863][  0]LogInit: Texture streaming: Enabled
+[2018.01.23-21.51.33:136][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.23-21.51.33:914][  0]LogInit: Transaction tracking system initialized
+[2018.01.23-21.51.37:558][  0]BlueprintLog: New page: Editor Load
+[2018.01.23-21.51.40:715][  0]LocalizationService: Localization service is disabled
+[2018.01.23-21.51.43:383][  0]LogConsoleResponse: Display: 
+[2018.01.23-21.51.47:419][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/' took 0.01s
+[2018.01.23-21.51.47:420][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.23-21.51.47:420][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.23-21.51.47:526][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.23-21.51.52:828][  0]SourceControl: Source control is disabled
+[2018.01.23-21.51.52:909][  0]Cmd: MAP LOAD FILE="../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.23-21.51.52:940][  0]LightingResults: New page: Lighting Build
+[2018.01.23-21.51.54:309][  0]MapCheck: New page: Map Check
+[2018.01.23-21.51.54:309][  0]LightingResults: New page: Lighting Build
+[2018.01.23-21.51.55:699][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar'
+[2018.01.23-21.51.55:699][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:699][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar
+[2018.01.23-21.51.55:701][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2018.01.23-21.51.55:701][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:701][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2018.01.23-21.51.55:701][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2018.01.23-21.51.55:701][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:701][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2018.01.23-21.51.55:702][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Rise_Floor_M'
+[2018.01.23-21.51.55:702][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Rise_Floor_M' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:702][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/SideScrollerBP/3DModels/Rise_Floor_M
+[2018.01.23-21.51.55:702][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar'
+[2018.01.23-21.51.55:702][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:702][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar
+[2018.01.23-21.51.55:702][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2018.01.23-21.51.55:703][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:703][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2018.01.23-21.51.55:703][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2018.01.23-21.51.55:703][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:703][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2018.01.23-21.51.55:704][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Rise_Floor_M'
+[2018.01.23-21.51.55:704][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Rise_Floor_M' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Floor.uasset.
+[2018.01.23-21.51.55:704][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/Floor : Can't find file for asset. /Game/SideScrollerBP/3DModels/Rise_Floor_M
+[2018.01.23-21.51.55:710][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar'
+[2018.01.23-21.51.55:710][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:710][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:711][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:711][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Rise_Floor_M'
+[2018.01.23-21.51.55:711][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Rise_Floor_M' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:712][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/3DModels/Rise_Floor_M
+[2018.01.23-21.51.55:712][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar'
+[2018.01.23-21.51.55:712][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:712][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar
+[2018.01.23-21.51.55:712][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2018.01.23-21.51.55:712][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:712][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2018.01.23-21.51.55:713][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2018.01.23-21.51.55:713][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:713][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2018.01.23-21.51.55:713][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Rise_Floor_M'
+[2018.01.23-21.51.55:713][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Rise_Floor_M' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:713][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/3DModels/Rise_Floor_M
+[2018.01.23-21.51.55:713][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar'
+[2018.01.23-21.51.55:713][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar.Pillar_C Referenced by Default__Floor_C
+[2018.01.23-21.51.55:714][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:714][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar.Pillar_C Referenced by Default__Floor_C
+[2018.01.23-21.51.55:714][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/Pillar
+[2018.01.23-21.51.55:718][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Rise_Floor_M'
+[2018.01.23-21.51.55:718][  0]LoadErrors: Failed to load /Game/SideScrollerBP/3DModels/Rise_Floor_M.Rise_Floor_M Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:718][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Rise_Floor_M' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:718][  0]LoadErrors: Failed to load /Game/SideScrollerBP/3DModels/Rise_Floor_M.Rise_Floor_M Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:718][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/SideScrollerBP/3DModels/Rise_Floor_M
+[2018.01.23-21.51.55:718][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Wood_Pine'
+[2018.01.23-21.51.55:719][  0]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:719][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Wood_Pine' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:719][  0]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Wood_Pine.M_Wood_Pine Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:719][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Wood_Pine
+[2018.01.23-21.51.55:719][  0]LogLinker: Warning: Can't find file '/Game/StarterContent/Materials/M_Brick_Clay_Beveled'
+[2018.01.23-21.51.55:719][  0]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:719][  0]LogLinker: Warning: Can't find file for asset '/Game/StarterContent/Materials/M_Brick_Clay_Beveled' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/BP_Level.uasset.
+[2018.01.23-21.51.55:719][  0]LoadErrors: Failed to load /Game/StarterContent/Materials/M_Brick_Clay_Beveled.M_Brick_Clay_Beveled Referenced by Plank_GEN_VARIABLE
+[2018.01.23-21.51.55:719][  0]LoadErrors: Error: /Game/RISE/LvlGenrating/BP_Level : Can't find file for asset. /Game/StarterContent/Materials/M_Brick_Clay_Beveled
+[2018.01.23-21.51.56:731][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:732][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:732][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:732][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:732][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:732][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:755][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:756][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:756][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:756][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:756][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:756][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:756][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:757][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:757][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:757][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:758][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:758][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:758][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:758][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_Restart.uasset.
+[2018.01.23-21.51.56:758][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_Restart : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:767][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:767][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:767][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:767][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:767][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:767][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:767][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:768][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:768][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:768][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:768][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:768][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:798][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:798][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset.
+[2018.01.23-21.51.56:799][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_HUD : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:800][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:800][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset.
+[2018.01.23-21.51.56:800][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_HUD : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:800][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:801][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset.
+[2018.01.23-21.51.56:801][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_HUD : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:803][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:803][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:803][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:817][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:817][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:817][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:817][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:818][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:818][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:819][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:819][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:819][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:820][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:820][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:820][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:820][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:820][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:821][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:821][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:821][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset.
+[2018.01.23-21.51.56:821][  0]LoadErrors: Error: /Game/RISE/HUBs/BP_MainMenu : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:828][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:828][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:828][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:828][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:829][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:829][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:829][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:829][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:829][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:833][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:833][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:833][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:833][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:833][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:833][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:834][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:834][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:834][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:834][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:834][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:835][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:835][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:835][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:835][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:835][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:837][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:837][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_212
+[2018.01.23-21.51.56:837][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:837][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_212
+[2018.01.23-21.51.56:837][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:837][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:837][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_212
+[2018.01.23-21.51.56:837][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:837][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_212
+[2018.01.23-21.51.56:837][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:838][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:838][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_34
+[2018.01.23-21.51.56:838][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:838][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_34
+[2018.01.23-21.51.56:838][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:839][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:839][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_34
+[2018.01.23-21.51.56:839][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:839][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_34
+[2018.01.23-21.51.56:839][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:839][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:839][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_211
+[2018.01.23-21.51.56:839][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:839][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_211
+[2018.01.23-21.51.56:839][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:839][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:839][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_211
+[2018.01.23-21.51.56:840][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:840][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_211
+[2018.01.23-21.51.56:840][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:840][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:840][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_0
+[2018.01.23-21.51.56:840][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:840][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_0
+[2018.01.23-21.51.56:840][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:840][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:840][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_0
+[2018.01.23-21.51.56:840][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:840][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_0
+[2018.01.23-21.51.56:840][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_33
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_33
+[2018.01.23-21.51.56:841][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_33
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_33
+[2018.01.23-21.51.56:841][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_39
+[2018.01.23-21.51.56:841][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:841][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_39
+[2018.01.23-21.51.56:841][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:842][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:842][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_39
+[2018.01.23-21.51.56:842][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:842][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_39
+[2018.01.23-21.51.56:842][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:842][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:842][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_38
+[2018.01.23-21.51.56:842][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:842][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_38
+[2018.01.23-21.51.56:842][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:842][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:842][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_38
+[2018.01.23-21.51.56:843][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:843][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableSet_38
+[2018.01.23-21.51.56:843][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:844][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:844][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD.BP_HUD_C Referenced by K2Node_CreateWidget_0
+[2018.01.23-21.51.56:844][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:844][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD.BP_HUD_C Referenced by K2Node_CreateWidget_0
+[2018.01.23-21.51.56:844][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:844][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD'
+[2018.01.23-21.51.56:844][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD.BP_HUD_C Referenced by K2Node_CreateWidget_0
+[2018.01.23-21.51.56:844][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_HUD' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:844][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD.BP_HUD_C Referenced by K2Node_CreateWidget_0
+[2018.01.23-21.51.56:844][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_HUD
+[2018.01.23-21.51.56:845][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:845][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge.BP_Challenge_C Referenced by K2Node_CreateWidget_1
+[2018.01.23-21.51.56:845][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:845][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge.BP_Challenge_C Referenced by K2Node_CreateWidget_1
+[2018.01.23-21.51.56:845][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:845][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge'
+[2018.01.23-21.51.56:845][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge.BP_Challenge_C Referenced by K2Node_CreateWidget_1
+[2018.01.23-21.51.56:845][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:845][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge.BP_Challenge_C Referenced by K2Node_CreateWidget_1
+[2018.01.23-21.51.56:845][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/BP_Challenge
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:846][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_11
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:846][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_11
+[2018.01.23-21.51.56:846][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:846][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_11
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:846][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_11
+[2018.01.23-21.51.56:846][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:846][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_10
+[2018.01.23-21.51.56:846][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:847][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_10
+[2018.01.23-21.51.56:847][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:847][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:847][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_10
+[2018.01.23-21.51.56:847][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:847][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_10
+[2018.01.23-21.51.56:847][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:847][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:847][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_76
+[2018.01.23-21.51.56:847][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:847][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_76
+[2018.01.23-21.51.56:847][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:848][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:848][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_76
+[2018.01.23-21.51.56:848][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:848][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_76
+[2018.01.23-21.51.56:848][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:848][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:848][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_75
+[2018.01.23-21.51.56:848][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:848][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_75
+[2018.01.23-21.51.56:848][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:848][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:848][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_75
+[2018.01.23-21.51.56:849][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:849][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableSet_75
+[2018.01.23-21.51.56:849][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:849][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:849][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:849][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:850][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:850][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:850][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:850][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:850][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:850][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:851][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:851][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_0
+[2018.01.23-21.51.56:851][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:851][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_0
+[2018.01.23-21.51.56:851][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:851][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:851][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_0
+[2018.01.23-21.51.56:852][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:852][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_CallFunction_0
+[2018.01.23-21.51.56:852][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:852][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:852][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:852][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:852][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:852][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:852][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:852][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:852][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:852][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_GetArrayItem_1
+[2018.01.23-21.51.56:852][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:853][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:853][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableGet_1
+[2018.01.23-21.51.56:853][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:853][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableGet_1
+[2018.01.23-21.51.56:853][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:853][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.51.56:853][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableGet_1
+[2018.01.23-21.51.56:853][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:853][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog.SpikeLog_C Referenced by K2Node_VariableGet_1
+[2018.01.23-21.51.56:853][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/Spikes/SpikeLog
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:854][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:854][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:854][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:854][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:855][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:855][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:855][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:855][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:855][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:855][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:857][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:857][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_DynamicCast_0
+[2018.01.23-21.51.56:857][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:857][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_DynamicCast_0
+[2018.01.23-21.51.56:857][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:857][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:857][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_DynamicCast_0
+[2018.01.23-21.51.56:858][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:858][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_DynamicCast_0
+[2018.01.23-21.51.56:858][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:858][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:858][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_0
+[2018.01.23-21.51.56:858][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:858][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_0
+[2018.01.23-21.51.56:858][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:858][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:858][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_0
+[2018.01.23-21.51.56:858][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:858][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_0
+[2018.01.23-21.51.56:859][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:859][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:859][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_2
+[2018.01.23-21.51.56:859][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:859][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_2
+[2018.01.23-21.51.56:859][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:859][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot'
+[2018.01.23-21.51.56:859][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_2
+[2018.01.23-21.51.56:859][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:859][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot.HighScoreSaveSlot_C Referenced by K2Node_VariableGet_2
+[2018.01.23-21.51.56:859][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/HighScoreSaveSlot
+[2018.01.23-21.51.56:860][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:860][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_2
+[2018.01.23-21.51.56:860][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:860][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_2
+[2018.01.23-21.51.56:860][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:860][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:860][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_2
+[2018.01.23-21.51.56:860][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:860][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_DynamicCast_2
+[2018.01.23-21.51.56:860][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:861][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:861][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableGet_3
+[2018.01.23-21.51.56:861][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:861][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableGet_3
+[2018.01.23-21.51.56:861][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.56:861][  0]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance'
+[2018.01.23-21.51.56:861][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableGet_3
+[2018.01.23-21.51.56:861][  0]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/SideScrollerCharacter.uasset.
+[2018.01.23-21.51.56:861][  0]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance.RestartGameInstance_C Referenced by K2Node_VariableGet_3
+[2018.01.23-21.51.56:861][  0]LoadErrors: Error: /Game/SideScrollerBP/Blueprints/SideScrollerCharacter : Can't find file for asset. /Game/SideScrollerBP/Blueprints/HUBs/Saves/RestartGameInstance
+[2018.01.23-21.51.57:065][  0]LogBlueprint: Warning: [HighScoreSaveSlot] 'UserIndex' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:115][  0]LogBlueprint: Warning: [BP_HUD] 'SpeedUp' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'InitialSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'InitialSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'InitialSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:117][  0]LogBlueprint: Warning: [BP_MainMenu] 'InitialSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:128][  0]LogBlueprint: Warning: [BP_MainMenu] 'IsEasyOrHard' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:128][  0]LogBlueprint: Warning: [BP_MainMenu] 'IsEasyOrHard' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:128][  0]LogBlueprint: Warning: [BP_MainMenu] 'IsEasyOrHard' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:128][  0]LogBlueprint: Warning: [BP_MainMenu] 'IsEasyOrHard' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:129][  0]LogBlueprint: Warning: [BP_Restart] 'HighScoreEZ' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:130][  0]LogBlueprint: Warning: [BP_Restart] 'HighScoreHD' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:130][  0]LogBlueprint: Warning: [BP_Restart] 'IsEasyOrHard' variable not found. Base class was probably changed.
+[2018.01.23-21.51.57:219][  0]LogBlueprint: Warning: [Compiler BP_HUD] Could not find a variable named "SpeedUp" in 'BP_HUD'.
+Make sure 'BP_HUD' has been compiled for  Get
+[2018.01.23-21.51.57:221][  0]LogBlueprint: Error: [Compiler BP_HUD] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.51.57:241][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Spawn node  Create Widget  must have a class specified.
+[2018.01.23-21.51.57:241][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Spawn node  Create Widget  must have a class specified.
+[2018.01.23-21.51.57:243][  0]LogBlueprint: Error: [Compiler BP_MainMenu] COMPILER ERROR: failed building connection with 'Actor Object Reference is not compatible with Object Reference.' at  Get (a copy)
+[2018.01.23-21.51.57:243][  0]LogBlueprint: Error: [Compiler BP_MainMenu] COMPILER ERROR: failed building connection with 'Actor Object Reference is not compatible with Object Reference.' at  Get (a copy)
+[2018.01.23-21.51.57:258][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "IsEasyOrHard" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set IsEasyOrHard
+[2018.01.23-21.51.57:258][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "IsEasyOrHard" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set IsEasyOrHard
+[2018.01.23-21.51.57:258][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:258][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:258][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:259][  0]LogBlueprint: Error: [Compiler BP_MainMenu] In use pin  As Restart Game Instance  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.51.57:259][  0]LogBlueprint: Error: [Compiler BP_MainMenu] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:259][  0]LogBlueprint: Error: [Compiler BP_MainMenu] In use pin  As Restart Game Instance  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.51.57:259][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "InitialSpeed" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set InitialSpeed
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "InitialSpeed" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set InitialSpeed
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "AddSpeed" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set AddSpeed
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] Could not find a variable named "AddSpeed" in 'BP_MainMenu'.
+Make sure 'BP_MainMenu' has been compiled for  Set AddSpeed
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Error: [Compiler BP_MainMenu] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Error: [Compiler BP_MainMenu] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Error: [Compiler BP_MainMenu] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.51.57:260][  0]LogBlueprint: Error: [Compiler BP_MainMenu] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.51.57:263][  0]LogBlueprint: Error: [Compiler BP_Restart] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Error: [Compiler BP_Restart] In use pin  As High Score Save Slot  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Error: [Compiler BP_Restart] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Warning: [Compiler BP_Restart] Could not find a variable named "HighScoreEZ" in 'BP_Restart'.
+Make sure 'BP_Restart' has been compiled for  Get HighScoreEZ
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Warning: [Compiler BP_Restart] Could not find a variable named "IsEasyOrHard" in 'BP_Restart'.
+Make sure 'BP_Restart' has been compiled for  Get IsEasyOrHard
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Warning: [Compiler BP_Restart] Could not find a variable named "HighScoreHD" in 'BP_Restart'.
+Make sure 'BP_Restart' has been compiled for  Get HighScoreHD
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Error: [Compiler BP_Restart] Can't connect pins  Object  and  Return Value : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Error: [Compiler BP_Restart] In use pin  As Restart Game Instance  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.51.57:264][  0]LogBlueprint: Error: [Compiler BP_Restart] Can't connect pins  Return Value  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.51.57:321][  0]LogBlueprint: Error: [Compiler BP_HUD] The property associated with  Speed Up  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Is Easy or Hard  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Add Speed  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Initial Speed  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Initial Speed  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Add Speed  could not be found
+[2018.01.23-21.51.57:323][  0]LogBlueprint: Error: [Compiler BP_MainMenu] The property associated with  Is Easy or Hard  could not be found
+[2018.01.23-21.51.57:387][  0]LogBlueprint: Warning: [Compiler BP_HUD] [0130.53] Compile of BP_HUD failed. 2 Fatal Issue(s) 1 Warning(s) [in 418 ms] (/Game/RISE/HUBs/BP_HUD.BP_HUD)
+[2018.01.23-21.51.57:387][  0]LogBlueprint: Warning: [Compiler BP_MainMenu] [0130.53] Compile of BP_MainMenu failed. 20 Fatal Issue(s) 6 Warning(s) [in 437 ms] (/Game/RISE/HUBs/BP_MainMenu.BP_MainMenu)
+[2018.01.23-21.51.57:387][  0]LogBlueprint: Warning: [Compiler BP_Restart] [0130.53] Compile of BP_Restart failed. 6 Fatal Issue(s) 3 Warning(s) [in 418 ms] (/Game/RISE/HUBs/BP_Restart.BP_Restart)
+[2018.01.23-21.52.00:333][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.01.23-21.52.00:993][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.23-21.52.01:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.23-21.52.01:200][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 54.645ms to complete.
+[2018.01.23-21.52.01:200][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 8.312
+[2018.01.23-21.52.02:885][  0]LogCollectionManager: Loaded 0 collections in 0.010476 seconds
+[2018.01.23-21.52.03:074][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Saved/Collections/' took 0.01s
+[2018.01.23-21.52.03:074][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/Developers/isma0/Collections/' took 0.01s
+[2018.01.23-21.52.03:074][  0]LogFileCache: Scanning file cache for directory 'C:/Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/Collections/' took 0.01s
+[2018.01.23-21.52.03:074][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.23-21.52.03:092][  0]LogContentBrowser: Native class hierarchy populated in 0.0155 seconds. Added 2386 classes and 500 folders.
+[2018.01.23-21.52.03:234][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0334 seconds. Added 0 classes and 0 folders.
+[2018.01.23-21.52.05:174][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0025 seconds. Added 0 classes and 0 folders.
+[2018.01.23-21.52.05:329][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2018.01.23-21.52.06:374][  0]LogSlate: Took 0.014010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-21.52.06:400][  0]LogSlate: Took 0.016224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.23-21.52.06:463][  0]LogSlate: Took 0.016859 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.23-21.52.07:020][  0]LogRenderer: Reallocating scene render targets to support 964x448 Format 10 NumSamples 1 (Frame:1).
+[2018.01.23-21.52.07:975][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.23-21.52.07:977][  0]LogLoad: (Engine Initialization) Total time: 141.12 seconds
+[2018.01.23-21.52.07:977][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.23-21.52.07:995][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.23-21.52.08:184][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.23-21.52.08:506][  0]LogSlate: Took 0.009639 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-21.52.08:729][  2]LogAssetRegistry: Asset discovery search completed in 96.3875 seconds
+[2018.01.23-21.52.08:732][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.23-21.52.08:732][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000049 seconds (updated 0 objects)
+[2018.01.23-21.52.38:884][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:884][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Pillar.uasset.
+[2018.01.23-21.52.38:885][342]LoadErrors: Error: /Game/RISE/LvlGenrating/Pillar : Can't find file for asset. /Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision
+[2018.01.23-21.52.38:886][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Greek_Pillar'
+[2018.01.23-21.52.38:886][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Greek_Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Pillar.uasset.
+[2018.01.23-21.52.38:886][342]LoadErrors: Error: /Game/RISE/LvlGenrating/Pillar : Can't find file for asset. /Game/SideScrollerBP/3DModels/Greek_Pillar
+[2018.01.23-21.52.38:886][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:887][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Pillar.uasset.
+[2018.01.23-21.52.38:887][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Greek_Pillar'
+[2018.01.23-21.52.38:887][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Greek_Pillar' while loading ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/LvlGenrating/Pillar.uasset.
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading NULL.
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading NULL.
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Greek_Pillar'
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Greek_Pillar' while loading NULL.
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading NULL.
+[2018.01.23-21.52.38:889][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Greek_Pillar'
+[2018.01.23-21.52.38:890][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Greek_Pillar' while loading NULL.
+[2018.01.23-21.52.38:890][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:890][342]LoadErrors: Failed to load /Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision.BP_EmptyFloorCollision_C Referenced by K2Node_DynamicCast_2
+[2018.01.23-21.52.38:891][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading NULL.
+[2018.01.23-21.52.38:891][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision'
+[2018.01.23-21.52.38:891][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/Blueprints/LvlGenrating/BP_EmptyFloorCollision' while loading NULL.
+[2018.01.23-21.52.38:891][342]LogLinker: Warning: Can't find file '/Game/SideScrollerBP/3DModels/Greek_Pillar'
+[2018.01.23-21.52.38:891][342]LoadErrors: Failed to load /Game/SideScrollerBP/3DModels/Greek_Pillar.Greek_Pillar Referenced by Pillar_GEN_VARIABLE
+[2018.01.23-21.52.38:892][342]LogLinker: Warning: Can't find file for asset '/Game/SideScrollerBP/3DModels/Greek_Pillar' while loading NULL.
+[2018.01.23-21.52.38:894][342]LogBlueprint: Error: [Compiler Pillar] Can't connect pins  Object  and  Other Actor : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.52.38:894][342]LogBlueprint: Error: [Compiler Pillar] Can't connect pins  Other Actor  and  Object : This cast has an invalid target type (was the class deleted without a redirect?).
+[2018.01.23-21.52.38:922][342]LogBlueprint: Warning: [Compiler Pillar] [0172.07] Compile of Pillar failed. 2 Fatal Issue(s) 0 Warning(s) [in 29 ms] (/Game/RISE/LvlGenrating/Pillar.Pillar)
+[2018.01.23-21.52.40:923][565]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C:BndEvt__PillarTopCollision_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C:DefaultSceneRoot' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C:Pillar' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C:PillarTopCollision' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C:UserConstructionScript' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.SKEL_Pillar_C' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C:DefaultSceneRoot' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C:Pillar' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C:PillarTopCollision' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C:UserConstructionScript' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:017][565]LogMetaData: Removing '/Game/RISE/3DModels/Pillar.Pillar_C:ExecuteUbergraph_Pillar' ref from Metadata '/Game/RISE/LvlGenrating/Pillar.PackageMetaData'
+[2018.01.23-21.52.41:108][565]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/3DModels/Pillar" FILE="../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/3DModels/Pillar.uasset" SILENT=true
+[2018.01.23-21.52.41:209][565]LogSavePackage: Save=95.37ms
+[2018.01.23-21.52.41:209][565]LogSavePackage: Moving '../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Saved/PillarAD1DCB3546253655120406B98A8C223F.tmp' to '../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/3DModels/Pillar.uasset'
+[2018.01.23-21.52.41:221][565]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/isma0/Documents/Unreal Projects/RISE-Mobile/RISE_GAME/Content/RISE/3DModels/Pillar.uasset
+[2018.01.23-21.53.04:378][  1]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.23-21.53.05:447][  1]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 113 classes and 0 folders.
+[2018.01.23-21.53.07:796][  2]LogRenderer: Reallocating scene render targets to support 1048x548 Format 10 NumSamples 1 (Frame:1).
+[2018.01.23-21.53.08:045][  3]LogRenderer: Reallocating scene render targets to support 1048x564 Format 10 NumSamples 1 (Frame:4).
+[2018.01.23-21.53.08:192][  7]LogHttp: Warning: 0000027FF6C70700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.23-21.53.08:192][  7]LogHttp: Warning: 0000027FF6C70700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.23-21.53.08:192][  7]LogHttp: Warning: 0000027FF6C70700: libcurl info message cache 1 (Closing connection 0)
+[2018.01.23-21.53.30:609][993]LogSlate: Took 0.186549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.23-21.54.48:868][285]LogSlate: Took 0.011635 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.01.23-21.54.50:376][463]LogSlate: Took 0.021246 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.23-21.55.08:224][572]LogHttp: Warning: 0000027F97BC3100: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.23-21.55.08:225][572]LogHttp: Warning: 0000027F97BC3100: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.23-21.55.08:225][572]LogHttp: Warning: 0000027F97BC3100: libcurl info message cache 1 (Closing connection 1)
+[2018.01.23-21.57.06:168][307]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.57.06:169][307]LogLinker: Can't find file '/Game/SideScrollerBP/Blueprints/Spikes/SpikeLog'
+[2018.01.23-21.57.06:203][307]LogBlueprint: Warning: [RisingFloor] 'Lifespan' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:216][307]LogBlueprint: Warning: [RisingFloor] 'SpikeLog' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:218][307]LogBlueprint: Warning: [RisingFloor] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:218][307]LogBlueprint: Warning: [RisingFloor] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:218][307]LogBlueprint: Warning: [RisingFloor] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:218][307]LogBlueprint: Warning: [RisingFloor] 'PointScore' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:219][307]LogBlueprint: Warning: [RisingFloor] 'InitialSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:219][307]LogBlueprint: Warning: [RisingFloor] 'ISOnce' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:219][307]LogBlueprint: Warning: [RisingFloor] 'ISOnce' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'NextLevelSpeedUp' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'AddSpeed' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'NextLevelSpeedUp' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'NextLevelSpeedUp' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'SpeedIncrements' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'PointScore' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'SpeedStart' variable not found. Base class was probably changed.
+[2018.01.23-21.57.06:220][307]LogBlueprint: Warning: [RisingFloor] 'SpikeLog' variable not found. Base class was probably changed.
+[2018.01.23-21.57.08:262][500]LogHttp: Warning: 0000027F9581D180: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.01.23-21.57.08:262][500]LogHttp: Warning: 0000027F9581D180: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.01.23-21.57.08:262][500]LogHttp: Warning: 0000027F9581D180: libcurl info message cache 1 (Closing connection 2)
+[2018.01.23-21.58.54:493][615]BlueprintLog: New page: Compile RisingFloor
+[2018.01.23-21.58.54:540][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "SpikeLog" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get SpikeLog
+[2018.01.23-21.58.54:540][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:540][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "SpeedStart" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get SpeedStart
+[2018.01.23-21.58.54:540][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:540][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "PointScore" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get PointScore
+[2018.01.23-21.58.54:540][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:540][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "SpeedIncrements" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get SpeedIncrements
+[2018.01.23-21.58.54:541][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "NextLevelSpeedUp" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Set NextLevelSpeedUp
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "AddSpeed" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get AddSpeed
+[2018.01.23-21.58.54:541][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "NextLevelSpeedUp" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get NextLevelSpeedUp
+[2018.01.23-21.58.54:541][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  As Side Scroller Game Mode  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "ISOnce" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get ISOnce
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "ISOnce" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get ISOnce
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "InitialSpeed" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get InitialSpeed
+[2018.01.23-21.58.54:541][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:541][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "PointScore" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get PointScore
+[2018.01.23-21.58.54:541][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  As Side Scroller Character  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:542][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "AddSpeed" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Set AddSpeed
+[2018.01.23-21.58.54:542][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "AddSpeed" in 'RisingFloor_C'.
+Make sure 'RisingFloor_C' has been compiled for  Get AddSpeed
+[2018.01.23-21.58.54:543][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  Target  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:543][615]LogBlueprint: Warning: [Compiler RisingFloor] Could not find a variable named "Lifespan" in 'RisingFloor'.
+Make sure 'RisingFloor' has been compiled for  Get Lifespan
+[2018.01.23-21.58.54:543][615]LogBlueprint: Error: [Compiler RisingFloor] In use pin  As Side Scroller Character  no longer exists on this node. Please refresh node or break links to remove pin.
+[2018.01.23-21.58.54:544][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:545][615]LogBlueprint: Error: [Compiler RisingFloor] This blueprint (self) is not compatible with ' Target ', therefore that pin must have a connection.
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Lifespan  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Add Speed  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Point Score  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Point Score  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Initial Speed  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  ISOnce  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  ISOnce  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Speed Increments  could not be found
+[2018.01.23-21.58.54:546][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Next Level Speed Up  could not be found
+[2018.01.23-21.58.54:547][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Speed Start  could not be found
+[2018.01.23-21.58.54:547][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Add Speed  could not be found
+[2018.01.23-21.58.54:547][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Next Level Speed Up  could not be found
+[2018.01.23-21.58.54:547][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Add Speed  could not be found
+[2018.01.23-21.58.54:547][615]LogBlueprint: Error: [Compiler RisingFloor] The property associated with  Spike Log  could not be found
+[2018.01.23-21.58.54:890][615]LogBlueprint: Warning: [Compiler RisingFloor] [0548.03] Compile of RisingFloor failed. 31 Fatal Issue(s) 14 Warning(s) [in 396 ms] (/Game/RISE/LvlGenrating/RisingFloor.RisingFloor)
+[2018.01.23-21.58.55:867][720]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2018.01.23-21.58.59:452][720]LogWindows: Error: === Critical error: ===
+[2018.01.23-21.58.59:452][720]LogWindows: Error: 
+[2018.01.23-21.58.59:452][720]LogWindows: Error: Fatal error: [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\CoreUObject\Private\UObject\UObjectGlobals.cpp] [Line: 264] 
+[2018.01.23-21.58.59:452][720]LogWindows: Error: Illegal call to StaticFindObject() while serializing object data!
+[2018.01.23-21.58.59:452][720]LogWindows: Error: 
+[2018.01.23-21.58.59:452][720]LogWindows: Error: 
+[2018.01.23-21.58.59:452][720]LogWindows: Error: KERNELBASE.dll!0x0000000035D33FB8
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE841CE4
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE62AD5B
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE5C0179
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000FCCCC6AC
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-BlueprintGraph.dll!0x00000000DB18ABDD
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-BlueprintGraph.dll!0x00000000DB323679
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-BlueprintGraph.dll!0x00000000DB32C8A7
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000FCC578B8
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000FCC74A8F
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-CoreUObject.dll!0x00000000FCC5EAE7
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DCFD493D
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DCFD5388
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD010380
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD00CDD8
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD885309
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD3049A0
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD3315CA
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD8636EC
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD806AC1
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-UnrealEd.dll!0x00000000DD808FB6
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4753FF
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC579652
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4D67B2
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4D7B69
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC5566F5
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC60B967
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC6374D4
+[2018.01.23-21.58.59:452][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4542BC
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC427145
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4C1452
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC4A9C92
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Slate.dll!0x00000000FC49B68F
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE81B759
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE803EE1
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE81D5BB
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE7FF042
+[2018.01.23-21.58.59:453][720]LogWindows: Error: USER32.dll!0x0000000036CDB85D
+[2018.01.23-21.58.59:453][720]LogWindows: Error: USER32.dll!0x0000000036CDB1EF
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor-Core.dll!0x00000000DE81DCC6
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor.exe!0x0000000050E34BE2
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor.exe!0x0000000050E43970
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor.exe!0x0000000050E439EA
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor.exe!0x0000000050E502D9
+[2018.01.23-21.58.59:453][720]LogWindows: Error: UE4Editor.exe!0x0000000050E51C47
+[2018.01.23-21.58.59:453][720]LogWindows: Error: KERNEL32.DLL!0x00000000395D1FE4
+[2018.01.23-21.58.59:453][720]LogWindows: Error: ntdll.dll!0x000000003986EF91
+[2018.01.23-21.58.59:453][720]LogWindows: Error: ntdll.dll!0x000000003986EF91
+[2018.01.23-21.58.59:453][720]LogWindows: Error: 
+[2018.01.23-21.58.59:772][720]LogExit: Executing StaticShutdownAfterError
+[2018.01.23-21.58.59:777][720]LogWindows: FPlatformMisc::RequestExit(1)
+[2018.01.23-21.58.59:777][720]Log file closed, 01/23/18 17:58:59

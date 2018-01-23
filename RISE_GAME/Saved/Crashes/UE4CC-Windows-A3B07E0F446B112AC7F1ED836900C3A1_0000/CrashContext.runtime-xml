@@ -34,7 +34,7 @@
 		<EpicAccountId>e5af69ae52c34ec8bca2a7c038d1ea3c</EpicAccountId>
 		<CallStack />
 		<SourceContext />
-		<UserDescription />
+		<UserDescription>Sent in the unattended mode</UserDescription>
 		<UserActivityHint>EditorExit</UserActivityHint>
 		<ErrorMessage>Ensure condition failed: PinHelpers::NumPinsInMemory == 0 || PinHelpers::NumPinsInMemory == 1 [File:D:\Build\++UE4+Release-4.17+Compile\Sync\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 1164]</ErrorMessage>
 		<CrashDumpMode>0</CrashDumpMode>
