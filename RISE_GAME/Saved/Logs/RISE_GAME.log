@@ -1,4 +1,4 @@
-﻿Log file open, 05/14/18 20:22:07
+﻿Log file open, 05/15/18 17:11:36
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,9 +9,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: RISE_GAME
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-121749311) SRandInit(-121749311).
+LogInit: Display: RandInit(-1413836437) SRandInit(-1413836437).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.346384
+LogStats: Stats thread started at 0.329326
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin GitSourceControl
@@ -95,611 +95,648 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.15-00.22.08:342][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.15-00.22.08:342][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.15-00.22.08:443][  0]LogInit: Computer: LAPTOP-EBH0JGK7
-[2018.05.15-00.22.08:443][  0]LogInit: User: MoltenOwl
-[2018.05.15-00.22.08:443][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.15-00.22.08:443][  0]LogInit: High frequency timer resolution =2.339355 MHz
-[2018.05.15-00.22.08:444][  0]LogMemory: Memory total: Physical=11.5GB (12GB approx)
-[2018.05.15-00.22.08:444][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.15-00.22.08:444][  0]LogMemory: Process Physical Memory: 277.59 MB used, 277.59 MB peak
-[2018.05.15-00.22.08:444][  0]LogMemory: Process Virtual Memory: 274.06 MB used, 274.06 MB peak
-[2018.05.15-00.22.08:444][  0]LogMemory: Physical Memory: 6493.98 MB used,  5249.14 MB free, 11743.12 MB total
-[2018.05.15-00.22.08:444][  0]LogMemory: Virtual Memory: 702.71 MB used,  5249.14 MB free, 134217728.00 MB total
-[2018.05.15-00.22.08:848][  0]LogInit: Using OS detected language (en-US).
-[2018.05.15-00.22.08:848][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.15-00.22.09:121][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.15-00.22.19:197][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.15-00.22.19:225][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R5 Graphics' (Feature Level 11_0)
-[2018.05.15-00.22.19:225][  0]LogD3D11RHI:       499/0/5871 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2018.05.15-00.22.19:230][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.15-00.22.19:230][  0]LogD3D11RHI:       0/0/5871 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.15-00.22.19:230][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.05.15-00.22.19:244][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.15-00.22.19:244][  0]LogD3D11RHI:     GPU DeviceId: 0x9874 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.15-00.22.19:244][  0]LogWindows: EnumDisplayDevices:
-[2018.05.15-00.22.19:245][  0]LogWindows:    0. 'AMD Radeon(TM) R5 Graphics' (P:1 D:1)
-[2018.05.15-00.22.19:245][  0]LogWindows:    1. 'AMD Radeon(TM) R5 Graphics' (P:0 D:0)
-[2018.05.15-00.22.19:245][  0]LogWindows:    2. 'AMD Radeon(TM) R5 Graphics' (P:0 D:0)
-[2018.05.15-00.22.19:245][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.15-00.22.19:245][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R5 Graphics
-[2018.05.15-00.22.19:245][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.15-00.22.19:246][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.15-00.22.19:246][  0]LogRHI: Texture pool is 349 MB (70% of 499 MB)
-[2018.05.15-00.22.19:335][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.15-00.22.19:358][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
-[2018.05.15-00.22.19:363][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Intermediate/Shaders/WorkingDirectory/5492/).
-[2018.05.15-00.22.19:363][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MoltenOwl/AppData/Local/Temp/UnrealShaderWorkingDir/28EA58EF4B4F931F5BCCE1BE688F076F/'.
-[2018.05.15-00.22.19:363][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.15-00.22.25:598][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.15-00.22.25:730][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.15-00.22.25:862][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.15-00.22.25:986][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.15-00.22.26:156][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.15-00.22.26:278][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.15-00.22.26:414][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.15-00.22.26:548][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.15-00.22.26:660][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.15-00.22.26:835][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.15-00.22.26:964][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.15-00.22.27:103][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.15-00.22.27:227][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.15-00.22.27:358][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.15-00.22.27:496][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.15-00.22.27:754][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.15-00.22.27:755][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.15-00.22.27:854][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.15-00.22.28:077][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.15-00.22.28:170][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.15-00.22.28:304][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.15-00.22.28:445][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.15-00.22.28:566][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.15-00.22.28:716][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.15-00.22.28:716][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.15-00.22.29:974][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.15-00.22.30:247][  0]LogDerivedDataCache: Loaded boot cache 0.27s 92MB C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.05.15-00.22.30:248][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.05.15-00.22.30:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.15-00.22.30:248][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.15-00.22.30:248][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.15-00.22.30:248][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.15-00.22.30:283][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.15-00.22.30:297][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MoltenOwl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.15-00.22.30:327][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.15-00.22.30:328][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.15-00.22.30:395][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.15-00.22.30:395][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.15-00.22.32:258][  0]LogAssetRegistry: FAssetRegistry took 0.0321 seconds to start up
-[2018.05.15-00.22.32:612][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.15-00.22.33:050][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.05.15-00.22.33:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.15-00.22.33:977][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.15-00.22.33:977][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.15-00.22.33:977][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.15-00.22.33:977][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.15-00.22.33:977][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.15-00.22.34:865][  0]LogNetVersion: RISE_GAME , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1739909859)
-[2018.05.15-00.22.35:422][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 2 prioritized culture(s) in 0.060005 seconds
-[2018.05.15-00.22.35:440][  0]LogUObjectArray: 35418 objects as part of root set at end of initial load.
-[2018.05.15-00.22.35:440][  0]LogUObjectAllocator: 7448088 out of 0 bytes used by permanent object pool.
-[2018.05.15-00.22.35:441][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.15-00.22.35:606][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.15-00.23.06:319][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.15-00.23.06:455][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.15-00.23.08:008][  0]SourceControl: Source control is disabled
-[2018.05.15-00.23.08:008][  0]SourceControl: Source control is disabled
-[2018.05.15-00.23.08:230][  0]SourceControl: Source control is disabled
-[2018.05.15-00.23.08:446][  0]SourceControl: Source control is disabled
-[2018.05.15-00.23.10:710][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.15-00.23.12:249][  0]LogEngine: Initializing Engine...
-[2018.05.15-00.23.12:948][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.15-00.23.12:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.15-00.23.13:452][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.15-00.23.13:467][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-00.23.13:518][  0]LogInit: FAudioDevice initialized.
-[2018.05.15-00.23.13:986][  0]LogDerivedDataCache: Saved boot cache 0.47s 92MB C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.05.15-00.23.14:025][  0]LogInit: Texture streaming: Enabled
-[2018.05.15-00.23.14:124][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.15-00.23.15:244][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.15-00.23.16:595][  0]LogInit: Transaction tracking system initialized
-[2018.05.15-00.23.17:942][  0]BlueprintLog: New page: Editor Load
-[2018.05.15-00.23.21:478][  0]LocalizationService: Localization service is disabled
-[2018.05.15-00.23.23:946][  0]LogConsoleResponse: Display: 
-[2018.05.15-00.23.24:665][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.15-00.23.24:666][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.15-00.23.24:666][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.15-00.23.25:374][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' took 0.02s
-[2018.05.15-00.23.28:106][  0]SourceControl: Source control is disabled
-[2018.05.15-00.23.28:106][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.15-00.23.28:107][  0]LightingResults: New page: Lighting Build
-[2018.05.15-00.23.28:234][  0]MapCheck: New page: Map Check
-[2018.05.15-00.23.28:234][  0]LightingResults: New page: Lighting Build
-[2018.05.15-00.23.34:261][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.15-00.23.34:291][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.15-00.23.34:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.15-00.23.34:584][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 208.463ms to complete.
-[2018.05.15-00.23.34:584][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 6.478
-[2018.05.15-00.23.34:664][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.15-00.23.34:664][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.15-00.23.34:948][  0]LogCollectionManager: Loaded 0 collections in 0.005353 seconds
-[2018.05.15-00.23.35:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Collections/' took 0.01s
-[2018.05.15-00.23.35:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Developers/MoltenOwl/Collections/' took 0.01s
-[2018.05.15-00.23.35:096][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Collections/' took 0.01s
-[2018.05.15-00.23.35:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.05.15-00.23.35:115][  0]LogContentBrowser: Native class hierarchy populated in 0.0185 seconds. Added 2312 classes and 451 folders.
-[2018.05.15-00.23.35:287][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0015 seconds. Added 0 classes and 0 folders.
-[2018.05.15-00.23.36:608][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
-[2018.05.15-00.23.36:734][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
-[2018.05.15-00.23.36:790][  0]LogSlate: Took 0.000451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.15-00.23.36:904][  0]LogSlate: Took 0.111282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.15-00.23.36:936][  0]LogSlate: Took 0.022635 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.15-00.23.37:206][  0]LogRenderer: Reallocating scene render targets to support 916x376 Format 10 NumSamples 1 (Frame:1).
-[2018.05.15-00.23.38:218][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0016 seconds. Added 1 classes and 2 folders.
-[2018.05.15-00.23.38:218][  0]LogLoad: (Engine Initialization) Total time: 95.58 seconds
-[2018.05.15-00.23.38:218][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.15-00.23.38:219][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.15-00.23.38:277][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.15-00.23.38:675][  0]LogSlate: Took 0.000615 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-00.23.39:315][  3]LogAssetRegistry: Asset discovery search completed in 67.0799 seconds
-[2018.05.15-00.23.39:321][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
-[2018.05.15-00.23.39:321][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000892 seconds (updated 0 objects)
-[2018.05.15-00.23.43:821][ 50]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' took 5.57s
-[2018.05.15-00.24.06:233][376]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-00.24.06:316][376]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/MoltenOwl/Downloads/txt/Coin.bmp)
-[2018.05.15-00.24.06:377][376]LogTexture: Display: Building textures: Coin (AutoDXT, 1024X1024)
-[2018.05.15-00.24.37:716][516]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0016 seconds. Added 1 classes and 0 folders.
-[2018.05.15-00.24.37:721][516]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.24.37:875][516]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.24.37:908][516]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.24.38:057][516]LogSlate: Took 0.081711 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.15-00.24.58:368][190]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.24.58:398][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.15-00.24.58:440][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.15-00.25.00:170][283]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.25.00:270][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2018.05.15-00.25.02:987][399]LogMaterialEditor: Applying material coinmat
-[2018.05.15-00.25.05:318][399]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.25.05:488][399]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.25.05:596][399]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.25.05:716][399]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy coinmat, compiling. 
-[2018.05.15-00.25.13:060][399]TextureStreamingBuild: Display: Compiling optional shaders took 7.374 seconds.
-[2018.05.15-00.25.31:574][666]LogSlate: Took 0.000489 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.15-00.25.31:973][666]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0034 seconds. Added 113 classes and 0 folders.
-[2018.05.15-00.25.37:384][833]LogSlate: Took 0.028133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.15-00.25.40:367][881]LogSlate: Took 0.000777 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.15-00.25.47:817][223]LogRenderer: Reallocating scene render targets to support 916x508 Format 10 NumSamples 1 (Frame:1).
-[2018.05.15-00.25.56:762][385]LogSavePackage: Save=43.52ms
-[2018.05.15-00.25.56:762][385]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/coinmat27352E154C54848A12B72B885BC358C1.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Materials/coinmat.uasset'
-[2018.05.15-00.25.56:779][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Materials/coinmat.uasset
-[2018.05.15-00.25.57:118][385]LogSavePackage: Save=299.47ms
-[2018.05.15-00.25.57:118][385]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Coin286163AB4E2DF88CC47784B768BE3BBF.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Textures/Coin.uasset'
-[2018.05.15-00.25.57:126][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Textures/Coin.uasset
-[2018.05.15-00.25.57:202][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
-[2018.05.15-00.25.57:355][385]LogSavePackage: Save=89.56ms
-[2018.05.15-00.25.57:355][385]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Coin6C2578654A82A0A400C35688B9791294.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
-[2018.05.15-00.25.57:364][385]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
-[2018.05.15-00.25.57:374][385]MaterialEditorStats: Base pass shader: 81 instructions
-[2018.05.15-00.25.57:374][385]MaterialEditorStats: Vertex shader: 31 instructions
-[2018.05.15-00.25.57:374][385]MaterialEditorStats: Texture samplers: 3/16
-[2018.05.15-00.25.57:374][385]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.15-00.26.05:667][706]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-00.26.06:001][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.26.06:002][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-00.26.06:003][706]PIE: New page: PIE session: SideScrollerExampleMap (May 14, 2018, 4:26:06 PM)
-[2018.05.15-00.26.06:005][706]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.05.15-00.26.06:053][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.048695s)
-[2018.05.15-00.26.06:055][706]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.15-00.26.06:056][706]LogPlayLevel: PIE: World Init took: (0.002249s)
-[2018.05.15-00.26.06:057][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.052213s)
-[2018.05.15-00.26.06:112][706]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-00.26.06:140][706]LogInit: FAudioDevice initialized.
-[2018.05.15-00.26.06:204][706]LogLoad: Game class is 'OGSideScrollerGameMode_C'
-[2018.05.15-00.26.06:212][706]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.14-20.26.06
-[2018.05.15-00.26.06:216][706]LogWorld: Bringing up level for play took: 0.008543
-[2018.05.15-00.26.06:383][706]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0048 seconds. Added 11 classes and 0 folders.
-[2018.05.15-00.26.06:659][706]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.334
-[2018.05.15-00.26.06:660][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.26.06:803][706]LogRenderer: Reallocating scene render targets to support 916x584 Format 10 NumSamples 1 (Frame:1).
-[2018.05.15-00.26.39:074][326]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.26.39:225][326]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.26.54:383][982]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.15-00.26.54:432][982]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.26.56:027][ 40]Cmd: MODE ROTGRID=1
-[2018.05.15-00.27.23:938][504]BlueprintLog: New page: Compile BP_Coin
-[2018.05.15-00.27.25:572][522]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-00.27.25:649][522]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.27.25:650][522]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.15-00.27.25:650][522]PIE: New page: PIE session: SideScrollerExampleMap (May 14, 2018, 4:27:25 PM)
-[2018.05.15-00.27.25:652][522]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.05.15-00.27.25:702][522]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049267s)
-[2018.05.15-00.27.25:704][522]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.15-00.27.25:704][522]LogPlayLevel: PIE: World Init took: (0.002530s)
-[2018.05.15-00.27.25:705][522]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.052560s)
-[2018.05.15-00.27.25:760][522]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-00.27.25:796][522]LogInit: FAudioDevice initialized.
-[2018.05.15-00.27.25:845][522]LogLoad: Game class is 'OGSideScrollerGameMode_C'
-[2018.05.15-00.27.25:852][522]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.14-20.27.25
-[2018.05.15-00.27.25:856][522]LogWorld: Bringing up level for play took: 0.008688
-[2018.05.15-00.27.26:129][522]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.137
-[2018.05.15-00.27.26:131][522]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.27.28:909][597]MaterialEditorStats: Base pass shader: 81 instructions
-[2018.05.15-00.27.28:909][597]MaterialEditorStats: Vertex shader: 31 instructions
-[2018.05.15-00.27.28:909][597]MaterialEditorStats: Texture samplers: 2/16
-[2018.05.15-00.27.28:909][597]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
-[2018.05.15-00.28.07:424][554]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.28.07:560][554]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.28.14:746][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
-[2018.05.15-00.28.14:897][830]LogSavePackage: Save=89.64ms
-[2018.05.15-00.28.14:897][830]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_CoinCAEF195B45DBAB8FB924FE90158151F6.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
-[2018.05.15-00.28.14:905][830]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
-[2018.05.15-00.28.52:791][ 58]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 ../../../../../../Users/MoltenOwl/Downloads/FBX/coin.fbx)
-[2018.05.15-00.28.52:814][ 58]LogFbx: ItemName: GlobalSettings, ItemCount : 1
-[2018.05.15-00.28.52:814][ 58]LogFbx: ItemName: AnimationStack, ItemCount : 1
-[2018.05.15-00.28.52:814][ 58]LogFbx: ItemName: AnimationLayer, ItemCount : 1
-[2018.05.15-00.28.52:814][ 58]LogFbx: ItemName: Geometry, ItemCount : 1
-[2018.05.15-00.28.52:815][ 58]LogFbx: ItemName: Material, ItemCount : 1
-[2018.05.15-00.28.52:815][ 58]LogFbx: ItemName: Texture, ItemCount : 1
-[2018.05.15-00.28.52:815][ 58]LogFbx: ItemName: Model, ItemCount : 1
-[2018.05.15-00.28.52:815][ 58]LogFbx: ItemName: Video, ItemCount : 1
-[2018.05.15-00.28.52:834][ 58]LogFbx: Loading FBX Scene from ../../../../../../Users/MoltenOwl/Downloads/FBX/coin.fbx
-[2018.05.15-00.28.52:856][ 58]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.15-00.29.02:545][ 58]LogFbx: Loading FBX Scene from ../../../../../../Users/MoltenOwl/Downloads/FBX/coin.fbx
-[2018.05.15-00.29.02:563][ 58]LogFbx: FBX Scene Loaded Succesfully
-[2018.05.15-00.29.02:563][ 58]LogFbx: Warning: Triangulating static mesh pCylinder31
-[2018.05.15-00.29.02:821][ 58]LogStaticMesh: Building static mesh coin...
-[2018.05.15-00.29.02:829][ 58]LogStaticMesh: Built static mesh [0.06s] /Game/RISE/Assets/3DModels/coin.coin
-[2018.05.15-00.29.02:850][ 58]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
-[2018.05.15-00.29.08:555][189]LogRenderer: Reallocating scene render targets to support 1016x640 Format 10 NumSamples 1 (Frame:1).
-[2018.05.15-00.29.24:435][494]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.29.24:544][494]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.29.24:604][494]LogMaterial: Missing cached shader map for material coinmat, compiling. 
-[2018.05.15-00.29.24:712][494]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy coinmat, compiling. 
-[2018.05.15-00.29.39:146][494]TextureStreamingBuild: Display: Compiling optional shaders took 14.453 seconds.
-[2018.05.15-00.31.17:467][157]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-00.31.17:606][157]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.17:606][157]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.05.15-00.31.17:788][157]LogPlayLevel: [PlayLevel] Compiling BP_Coin before play...
-[2018.05.15-00.31.17:882][157]LogPlayLevel: [PlayLevel]   Compiling Floor as a dependent...
-[2018.05.15-00.31.19:213][157]LogPlayLevel: PlayLevel: Blueprint regeneration took 1607 ms (2 blueprints)
-[2018.05.15-00.31.19:214][157]PIE: New page: PIE session: SideScrollerExampleMap (May 14, 2018, 4:31:19 PM)
-[2018.05.15-00.31.19:216][157]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.05.15-00.31.19:347][157]LogPlayLevel: PIE: StaticDuplicateObject took: (0.129956s)
-[2018.05.15-00.31.19:378][157]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.15-00.31.19:379][157]LogPlayLevel: PIE: World Init took: (0.031880s)
-[2018.05.15-00.31.19:379][157]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.163068s)
-[2018.05.15-00.31.19:441][157]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-00.31.20:103][157]LogInit: FAudioDevice initialized.
-[2018.05.15-00.31.20:153][157]LogLoad: Game class is 'OGSideScrollerGameMode_C'
-[2018.05.15-00.31.20:193][157]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.14-20.31.20
-[2018.05.15-00.31.20:198][157]LogWorld: Bringing up level for play took: 0.040726
-[2018.05.15-00.31.21:721][157]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
-	BP_Coin_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.BP_Coin_C_7
+[2018.05.15-21.11.38:892][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-21.11.38:892][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.15-21.11.39:101][  0]LogInit: Computer: LAPTOP-EBH0JGK7
+[2018.05.15-21.11.39:101][  0]LogInit: User: MoltenOwl
+[2018.05.15-21.11.39:101][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.15-21.11.39:101][  0]LogInit: High frequency timer resolution =2.339359 MHz
+[2018.05.15-21.11.39:101][  0]LogMemory: Memory total: Physical=11.5GB (12GB approx)
+[2018.05.15-21.11.39:113][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-21.11.39:113][  0]LogMemory: Process Physical Memory: 277.50 MB used, 277.50 MB peak
+[2018.05.15-21.11.39:113][  0]LogMemory: Process Virtual Memory: 273.88 MB used, 273.88 MB peak
+[2018.05.15-21.11.39:113][  0]LogMemory: Physical Memory: 2486.48 MB used,  9256.64 MB free, 11743.12 MB total
+[2018.05.15-21.11.39:113][  0]LogMemory: Virtual Memory: 702.71 MB used,  9256.64 MB free, 134217728.00 MB total
+[2018.05.15-21.11.41:047][  0]LogInit: Using OS detected language (en-US).
+[2018.05.15-21.11.41:047][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.15-21.11.41:419][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.15-21.11.55:069][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.15-21.11.55:112][  0]LogD3D11RHI:    0. 'AMD Radeon(TM) R5 Graphics' (Feature Level 11_0)
+[2018.05.15-21.11.55:112][  0]LogD3D11RHI:       499/0/5871 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2018.05.15-21.11.55:178][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.15-21.11.55:178][  0]LogD3D11RHI:       0/0/5871 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.15-21.11.55:178][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.05.15-21.11.55:206][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.15-21.11.55:206][  0]LogD3D11RHI:     GPU DeviceId: 0x9874 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.15-21.11.55:207][  0]LogWindows: EnumDisplayDevices:
+[2018.05.15-21.11.55:207][  0]LogWindows:    0. 'AMD Radeon(TM) R5 Graphics' (P:1 D:1)
+[2018.05.15-21.11.55:207][  0]LogWindows:    1. 'AMD Radeon(TM) R5 Graphics' (P:0 D:0)
+[2018.05.15-21.11.55:207][  0]LogWindows:    2. 'AMD Radeon(TM) R5 Graphics' (P:0 D:0)
+[2018.05.15-21.11.55:208][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.15-21.11.55:208][  0]LogD3D11RHI:     Adapter Name: AMD Radeon(TM) R5 Graphics
+[2018.05.15-21.11.55:208][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.15-21.11.55:208][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.15-21.11.55:208][  0]LogRHI: Texture pool is 349 MB (70% of 499 MB)
+[2018.05.15-21.11.55:413][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.15-21.11.55:893][  0]LogD3D11RHI: GPU Timing Frequency: 100.000000 (Debug: 2 1)
+[2018.05.15-21.11.56:053][  0]LogShaderCompilers: Guid format shader working directory is -23 characters bigger than the processId version (../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Intermediate/Shaders/WorkingDirectory/11576/).
+[2018.05.15-21.11.56:053][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MoltenOwl/AppData/Local/Temp/UnrealShaderWorkingDir/410A628A46B1062A881D16AED6615E79/'.
+[2018.05.15-21.11.56:074][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.15-21.12.12:709][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.15-21.12.12:839][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.15-21.12.12:969][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.15-21.12.13:105][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.15-21.12.13:357][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.15-21.12.13:509][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.15-21.12.13:654][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.15-21.12.13:798][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.15-21.12.14:020][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.15-21.12.14:199][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.15-21.12.14:332][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.15-21.12.14:461][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.15-21.12.14:624][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.15-21.12.14:803][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.15-21.12.14:948][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.15-21.12.15:327][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.15-21.12.15:328][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.15-21.12.15:477][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.15-21.12.15:896][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.15-21.12.15:990][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.15-21.12.16:136][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.15-21.12.16:303][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.15-21.12.16:458][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.15-21.12.16:725][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.15-21.12.16:725][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.15-21.12.21:618][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: Loaded boot cache 5.92s 93MB C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.15-21.12.27:588][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.15-21.12.27:715][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.15-21.12.27:826][  0]LogDerivedDataCache: Using Local data cache path C:/Users/MoltenOwl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.15-21.12.28:009][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.15-21.12.28:106][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.15-21.12.28:260][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-21.12.28:269][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.15-21.12.37:341][  0]LogAssetRegistry: FAssetRegistry took 0.0546 seconds to start up
+[2018.05.15-21.12.40:081][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.15-21.12.44:524][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.05.15-21.12.46:662][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.15-21.12.46:865][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.15-21.12.46:876][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.15-21.12.46:876][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.15-21.12.46:876][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.15-21.12.46:876][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.15-21.12.51:685][  0]LogNetVersion: RISE_GAME , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1739909859)
+[2018.05.15-21.12.53:953][  0]LogPackageLocalizationCache: Processed 2 localized package path(s) for 2 prioritized culture(s) in 0.113465 seconds
+[2018.05.15-21.12.53:995][  0]LogUObjectArray: 35418 objects as part of root set at end of initial load.
+[2018.05.15-21.12.53:995][  0]LogUObjectAllocator: 7448088 out of 0 bytes used by permanent object pool.
+[2018.05.15-21.12.53:995][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.15-21.12.54:225][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.15-21.13.19:072][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.15-21.13.19:319][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.15-21.13.20:479][  0]SourceControl: Source control is disabled
+[2018.05.15-21.13.20:479][  0]SourceControl: Source control is disabled
+[2018.05.15-21.13.20:696][  0]SourceControl: Source control is disabled
+[2018.05.15-21.13.20:932][  0]SourceControl: Source control is disabled
+[2018.05.15-21.13.23:288][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.15-21.13.24:938][  0]LogEngine: Initializing Engine...
+[2018.05.15-21.13.26:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.15-21.13.26:599][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.15-21.13.27:371][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.15-21.13.27:539][  0]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-21.13.27:872][  0]LogInit: FAudioDevice initialized.
+[2018.05.15-21.13.28:185][  0]LogDerivedDataCache: Saved boot cache 0.31s 93MB C:/Users/MoltenOwl/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.05.15-21.13.28:242][  0]LogInit: Texture streaming: Enabled
+[2018.05.15-21.13.28:517][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.15-21.13.31:135][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.15-21.13.33:333][  0]LogInit: Transaction tracking system initialized
+[2018.05.15-21.13.36:310][  0]BlueprintLog: New page: Editor Load
+[2018.05.15-21.13.42:684][  0]LocalizationService: Localization service is disabled
+[2018.05.15-21.13.47:872][  0]LogConsoleResponse: Display: 
+[2018.05.15-21.13.52:356][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' took 0.03s
+[2018.05.15-21.13.52:356][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.15-21.13.52:356][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.15-21.13.52:524][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.15-21.14.03:953][  0]SourceControl: Source control is disabled
+[2018.05.15-21.14.04:152][  0]Cmd: MAP LOAD FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.15-21.14.04:453][  0]LightingResults: New page: Lighting Build
+[2018.05.15-21.14.05:074][  0]MapCheck: New page: Map Check
+[2018.05.15-21.14.05:074][  0]LightingResults: New page: Lighting Build
+[2018.05.15-21.14.31:842][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-21.14.32:895][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.15-21.14.33:290][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.15-21.14.33:452][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 161.794ms to complete.
+[2018.05.15-21.14.33:452][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 29.377
+[2018.05.15-21.14.39:703][  0]LogCollectionManager: Loaded 0 collections in 0.005790 seconds
+[2018.05.15-21.14.40:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Collections/' took 0.01s
+[2018.05.15-21.14.40:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Developers/MoltenOwl/Collections/' took 0.01s
+[2018.05.15-21.14.40:898][  0]LogFileCache: Scanning file cache for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Collections/' took 0.01s
+[2018.05.15-21.14.40:898][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.05.15-21.14.40:926][  0]LogContentBrowser: Native class hierarchy populated in 0.0266 seconds. Added 2312 classes and 451 folders.
+[2018.05.15-21.14.41:253][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0150 seconds. Added 0 classes and 0 folders.
+[2018.05.15-21.14.46:203][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0015 seconds. Added 0 classes and 0 folders.
+[2018.05.15-21.14.46:524][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0011 seconds. Added 1 classes and 2 folders.
+[2018.05.15-21.14.49:817][  0]LogSlate: Took 0.082513 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.15-21.14.49:892][  0]LogSlate: Took 0.025698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.15-21.14.50:060][  0]LogSlate: Took 0.020174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.15-21.14.51:491][  0]LogRenderer: Reallocating scene render targets to support 916x376 Format 10 NumSamples 1 (Frame:1).
+[2018.05.15-21.14.53:640][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.05.15-21.14.53:640][  0]LogLoad: (Engine Initialization) Total time: 205.31 seconds
+[2018.05.15-21.14.53:640][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.15-21.14.53:708][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.15-21.14.54:817][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.15-21.14.55:649][  0]LogSlate: Took 0.069383 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-21.14.55:808][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' took 1.61s
+[2018.05.15-21.14.56:392][  2]LogSlate: Took 0.000519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-21.14.57:045][  4]LogAssetRegistry: Asset discovery search completed in 139.7449 seconds
+[2018.05.15-21.14.57:050][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.05.15-21.14.57:050][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000273 seconds (updated 0 objects)
+[2018.05.15-21.26.10:947][594]LogSlate: Took 0.007828 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.15-21.26.11:593][594]LogSlate: Took 0.007674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.15-21.26.12:356][595]LogRenderer: Reallocating scene render targets to support 1016x640 Format 10 NumSamples 1 (Frame:1).
+[2018.05.15-21.26.21:762][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/Assets/3DModels/coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset" SILENT=true
+[2018.05.15-21.26.21:862][  1]LogSavePackage: Save=40.98ms
+[2018.05.15-21.26.21:863][  1]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/coin2CB07360408B19668A038CAB75B0C3F0.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset'
+[2018.05.15-21.26.21:882][  1]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset
+[2018.05.15-21.26.34:602][145]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0024 seconds. Added 113 classes and 0 folders.
+[2018.05.15-21.26.36:151][145]LogSlate: Took 0.027855 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.15-21.26.36:396][146]LogSlate: Took 0.019726 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.15-21.27.20:986][429]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.15-21.27.21:295][429]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.27.21:295][429]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.15-21.27.21:321][429]LogPlayLevel: [PlayLevel] Compiling BP_Coin before play...
+[2018.05.15-21.27.21:343][429]LogPlayLevel: [PlayLevel]   Compiling Floor as a dependent...
+[2018.05.15-21.27.21:877][429]LogPlayLevel: PlayLevel: Blueprint regeneration took 582 ms (2 blueprints)
+[2018.05.15-21.27.21:879][429]PIE: New page: PIE session: SideScrollerExampleMap (May 15, 2018, 1:27:21 PM)
+[2018.05.15-21.27.21:881][429]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-21.27.21:924][429]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042793s)
+[2018.05.15-21.27.21:926][429]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-21.27.21:926][429]LogPlayLevel: PIE: World Init took: (0.001986s)
+[2018.05.15-21.27.21:927][429]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.045719s)
+[2018.05.15-21.27.21:974][429]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-21.27.22:000][429]LogInit: FAudioDevice initialized.
+[2018.05.15-21.27.22:063][429]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-21.27.22:071][429]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.15-17.27.22
+[2018.05.15-21.27.22:074][429]LogWorld: Bringing up level for play took: 0.006940
+[2018.05.15-21.27.22:168][429]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0014 seconds. Added 11 classes and 0 folders.
+[2018.05.15-21.27.22:935][429]LogScript: Warning: Infinite script recursion (250 calls) detected - see log for stack trace
+	BP_Coin_C /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.BP_Coin_C_1
 	Function /Game/RISE/PowerUpsAndCoins/BP_Coin.BP_Coin_C:ExecuteUbergraph_BP_Coin:0000
-[2018.05.15-00.31.21:722][157]PIE: Error: Infinite Loop detected in  BP_Coin , asserted during  On Component Begin Overlap (CoinCollision) with the following  Call Stack
-[2018.05.15-00.31.22:372][157]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 5.379
-[2018.05.15-00.31.22:374][157]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.22:568][157]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.22:723][157]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.24:540][181]LogEditorTransaction: Undo Attach Component
-[2018.05.15-00.31.25:527][190]LogEditorTransaction: Undo Remove Components
-[2018.05.15-00.31.26:027][190]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.15-00.31.26:401][190]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.15-00.31.27:486][202]LogEditorTransaction: Undo Add Component
-[2018.05.15-00.31.28:603][215]LogEditorTransaction: Undo Remove Components
-[2018.05.15-00.31.29:996][229]LogEditorTransaction: Undo Detach Component
-[2018.05.15-00.31.31:165][238]LogEditorTransaction: Undo Rename Component Variable
-[2018.05.15-00.31.31:981][243]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.15-00.31.34:113][269]LogEditorTransaction: Undo Edit Static Mesh
-[2018.05.15-00.31.35:237][277]LogEditorTransaction: Undo Staticmesh editor: Material changed
-[2018.05.15-00.31.36:599][288]LogEditorTransaction: Undo Modify Component(s)
-[2018.05.15-00.31.37:501][298]LogEditorTransaction: Undo Edit Import Materials
-[2018.05.15-00.31.37:960][298]LogEditorTransaction: Undo Add Component
-[2018.05.15-00.31.42:498][392]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.15-00.31.42:585][392]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.42:585][392]BlueprintLog: New page: Pre-Play auto-recompile
-[2018.05.15-00.31.42:599][392]LogPlayLevel: [PlayLevel] Compiling BP_Coin before play...
-[2018.05.15-00.31.42:650][392]LogPlayLevel: [PlayLevel]   Compiling Floor as a dependent...
-[2018.05.15-00.31.43:916][392]LogPlayLevel: PlayLevel: Blueprint regeneration took 1331 ms (2 blueprints)
-[2018.05.15-00.31.43:916][392]PIE: New page: PIE session: SideScrollerExampleMap (May 14, 2018, 4:31:43 PM)
-[2018.05.15-00.31.43:938][392]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
-[2018.05.15-00.31.44:025][392]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087046s)
-[2018.05.15-00.31.44:028][392]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.05.15-00.31.44:028][392]LogPlayLevel: PIE: World Init took: (0.002823s)
-[2018.05.15-00.31.44:029][392]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.097512s)
-[2018.05.15-00.31.44:093][392]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.05.15-00.31.44:216][392]LogInit: FAudioDevice initialized.
-[2018.05.15-00.31.44:272][392]LogLoad: Game class is 'OGSideScrollerGameMode_C'
-[2018.05.15-00.31.44:280][392]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.14-20.31.44
-[2018.05.15-00.31.44:284][392]LogWorld: Bringing up level for play took: 0.009063
-[2018.05.15-00.31.44:628][392]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 1.635
-[2018.05.15-00.31.44:629][392]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.59:124][748]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.31.59:258][748]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
-[2018.05.15-00.32.14:016][108]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RISEGAME
-[2018.05.15-00.32.14:016][108]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.05.15-00.32.14:016][108]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2018.05.15-00.32.14:016][108]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.05.15-00.32.14:022][108]LogTemp: BranchPath = LAPTOP-EBH0JGK7/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = LAPTOP-EBH0JGK7/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2018.05.15-00.32.14:158][110]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\MoltenOwl\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.05.15-00.32.22:021][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
-[2018.05.15-00.32.22:152][371]LogSavePackage: Save=73.05ms
-[2018.05.15-00.32.22:154][371]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Coin364009DB43649EC948FE48A4774ED95E.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
-[2018.05.15-00.32.22:162][371]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
-[2018.05.15-00.32.22:324][371]LogSavePackage: Save=41.08ms
-[2018.05.15-00.32.22:324][371]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/coinmatED9B2FA7430CAAEBB99647B16919C002.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Materials/coinmat.uasset'
-[2018.05.15-00.32.22:332][371]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/Materials/coinmat.uasset
-[2018.05.15-00.32.22:403][371]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/Assets/3DModels/coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset" SILENT=true
-[2018.05.15-00.32.22:454][371]LogSavePackage: Save=46.15ms
-[2018.05.15-00.32.22:454][371]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/coinC6634C4D449AFE449150408F0D0DC31A.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset'
-[2018.05.15-00.32.22:463][371]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset
-[2018.05.15-00.32.25:270][417]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.15-00.32.25:271][417]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.15-00.32.25:728][418]Cmd: QUIT_EDITOR
-[2018.05.15-00.32.26:269][418]LogExit: Preparing to exit.
-[2018.05.15-00.32.27:503][418]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' was aborted.
-[2018.05.15-00.32.27:939][418]LogExit: Editor shut down
-[2018.05.15-00.32.27:953][418]LogExit: Transaction tracking system shut down
-[2018.05.15-00.32.28:220][418]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.15-00.32.28:221][418]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' was aborted.
-[2018.05.15-00.32.28:425][418]LogExit: Object subsystem successfully closed.
-[2018.05.15-00.32.28:445][418]LogD3D11RHI: Shutdown
-[2018.05.15-00.32.28:445][418]LogD3D11RHI: CleanupD3DDevice
-[2018.05.15-00.32.29:221][418]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (504)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (502)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (498)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module BlueprintGraph (496)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (494)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module MaterialEditor (492)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (490)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module SceneOutliner (488)
-[2018.05.15-00.32.29:273][418]LogModuleManager: Shutting down and abandoning module AddContentDialog (486)
-[2018.05.15-00.32.29:273][418]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
-[2018.05.15-00.32.29:276][418]LogModuleManager: Shutting down and abandoning module WidgetCarousel (485)
-[2018.05.15-00.32.29:276][418]LogModuleManager: Shutting down and abandoning module EditorWidgets (482)
-[2018.05.15-00.32.29:276][418]LogModuleManager: Shutting down and abandoning module CollectionManager (480)
-[2018.05.15-00.32.29:276][418]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Collections/' was aborted.
-[2018.05.15-00.32.29:276][418]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Developers/MoltenOwl/Collections/' was aborted.
-[2018.05.15-00.32.29:276][418]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Collections/' was aborted.
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module StatsViewer (478)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module FoliageEdit (476)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module LandscapeEditor (474)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module MeshPaintMode (472)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module MeshPaint (471)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (468)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module ActorPickerMode (466)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module GeometryMode (464)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module TextureAlignMode (462)
-[2018.05.15-00.32.29:277][418]LogModuleManager: Shutting down and abandoning module BspMode (460)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (458)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module HardwareSurvey (456)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (454)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module AutomationWorker (452)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (450)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (448)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module PlacementMode (447)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (444)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (442)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (440)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module Media (439)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (436)
-[2018.05.15-00.32.29:278][418]LogModuleManager: Shutting down and abandoning module CharacterAI (434)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module SequenceRecorder (431)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module SessionServices (428)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module ClothPainter (422)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module LogVisualizer (420)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module IntroTutorials (418)
-[2018.05.15-00.32.29:279][418]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (417)
-[2018.05.15-00.32.29:280][418]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
-[2018.05.15-00.32.29:280][418]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
-[2018.05.15-00.32.29:280][418]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
-[2018.05.15-00.32.29:280][418]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (406)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (404)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (402)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module InputBindingEditor (400)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module MergeActors (398)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module SizeMap (396)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module TreeMap (394)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module XmlParser (380)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module Blutility (378)
-[2018.05.15-00.32.29:860][418]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
-[2018.05.15-00.32.29:861][418]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module AutomationController (358)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module Layers (354)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
-[2018.05.15-00.32.29:916][418]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
-[2018.05.15-00.32.29:917][418]LogModuleManager: Shutting down and abandoning module Persona (346)
-[2018.05.15-00.32.29:917][418]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (345)
-[2018.05.15-00.32.29:917][418]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
-[2018.05.15-00.32.29:917][418]LogModuleManager: Shutting down and abandoning module Kismet (340)
-[2018.05.15-00.32.29:938][418]LogModuleManager: Shutting down and abandoning module LevelEditor (339)
-[2018.05.15-00.32.29:940][418]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (338)
-[2018.05.15-00.32.29:940][418]LogModuleManager: Shutting down and abandoning module ClassViewer (334)
-[2018.05.15-00.32.29:940][418]LogModuleManager: Shutting down and abandoning module Toolbox (332)
-[2018.05.15-00.32.29:940][418]LogModuleManager: Shutting down and abandoning module ModuleUI (330)
-[2018.05.15-00.32.29:940][418]LogModuleManager: Shutting down and abandoning module MovieSceneTools (328)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module OutputLog (326)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module GammaUI (324)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module Documentation (322)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (320)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module MovieScene (318)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module Niagara (312)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module NiagaraEditor (311)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (308)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module LauncherPlatform (306)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module AnalyticsET (304)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module PortalServices (302)
-[2018.05.15-00.32.29:941][418]LogModuleManager: Shutting down and abandoning module PortalRpc (300)
-[2018.05.15-00.32.29:942][418]LogModuleManager: Shutting down and abandoning module MessagingRpc (298)
-[2018.05.15-00.32.29:942][418]LogModuleManager: Shutting down and abandoning module AIModule (296)
-[2018.05.15-00.32.29:942][418]LogModuleManager: Shutting down and abandoning module GameplayDebugger (295)
-[2018.05.15-00.32.29:942][418]LogModuleManager: Shutting down and abandoning module AITestSuite (293)
-[2018.05.15-00.32.29:942][418]LogModuleManager: Shutting down and abandoning module ProfilerService (290)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module TaskGraph (288)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module SlateRemote (286)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (284)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (282)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (280)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module CableComponent (278)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (276)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module AndroidPermission (274)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (270)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module MainFrame (265)
-[2018.05.15-00.32.30:092][418]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
-[2018.05.15-00.32.30:093][418]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
-[2018.05.15-00.32.30:093][418]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
-[2018.05.15-00.32.30:093][418]LogModuleManager: Shutting down and abandoning module HotReload (257)
-[2018.05.15-00.32.30:093][418]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
-[2018.05.15-00.32.30:093][418]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module SourceControl (247)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (242)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (240)
-[2018.05.15-00.32.30:094][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (238)
-[2018.05.15-00.32.30:095][418]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (236)
-[2018.05.15-00.32.30:095][418]LogModuleManager: Shutting down and abandoning module UdpMessaging (234)
-[2018.05.15-00.32.30:196][418]LogModuleManager: Shutting down and abandoning module TcpMessaging (232)
-[2018.05.15-00.32.30:297][418]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (230)
-[2018.05.15-00.32.30:297][418]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
-[2018.05.15-00.32.30:297][418]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
-[2018.05.15-00.32.30:297][418]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
-[2018.05.15-00.32.30:303][418]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
-[2018.05.15-00.32.30:304][418]LogModuleManager: Shutting down and abandoning module WmfMedia (220)
-[2018.05.15-00.32.30:488][418]LogModuleManager: Shutting down and abandoning module PacketHandler (218)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (216)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (214)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module Overlay (212)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module VREditor (206)
-[2018.05.15-00.32.30:490][418]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (195)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2018.05.15-00.32.30:491][418]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2018.05.15-00.32.30:514][418]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2018.05.15-00.32.30:515][418]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2018.05.15-00.32.30:515][418]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
-[2018.05.15-00.32.30:518][418]LogModuleManager: Shutting down and abandoning module Slate (180)
-[2018.05.15-00.32.30:518][418]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module MRMesh (176)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module Core (164)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module LevelSequence (158)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module MeshUtilities (156)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (155)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (154)
-[2018.05.15-00.32.30:554][418]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
-[2018.05.15-00.32.30:555][418]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
-[2018.05.15-00.32.30:555][418]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
-[2018.05.15-00.32.30:555][418]LogModuleManager: Shutting down and abandoning module MaterialBaking (145)
-[2018.05.15-00.32.30:555][418]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (142)
-[2018.05.15-00.32.30:557][418]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
-[2018.05.15-00.32.30:665][418]LogDerivedDataCache: Shutdown
-[2018.05.15-00.32.30:665][418]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
-[2018.05.15-00.32.30:666][418]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
-[2018.05.15-00.32.30:667][418]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (135)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
-[2018.05.15-00.32.30:668][418]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
-[2018.05.15-00.32.30:669][418]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
-[2018.05.15-00.32.30:669][418]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
-[2018.05.15-00.32.30:669][418]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
-[2018.05.15-00.32.30:673][418]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module Messaging (97)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
-[2018.05.15-00.32.30:674][418]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
-[2018.05.15-00.32.30:675][418]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
-[2018.05.15-00.32.30:685][418]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
-[2018.05.15-00.32.30:685][418]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
-[2018.05.15-00.32.30:685][418]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
-[2018.05.15-00.32.30:685][418]LogModuleManager: Shutting down and abandoning module InputCore (56)
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module Settings (54)
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.15-00.32.30:686][418]LogOnline: Display: Unloading online subsystem: NULL
-[2018.05.15-00.32.30:686][418]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.15-00.32.30:687][418]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.15-00.32.30:687][418]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.15-00.32.30:687][418]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3611BDD7-4E3A-D244-5B98-CCBB54D82D7D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=330c018a40119ac8aa6082a42e8f404e%7C88057b4134714c0f98d798880975d3e9%7C63e0c156-2a72-4222-bd44-364fd265f9e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.15-00.32.30:919][418]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.15-00.32.30:923][418]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.15-00.32.30:928][418]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.15-00.32.30:928][418]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.15-00.32.30:928][418]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.15-00.32.30:929][418]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.15-00.32.30:941][418]LogExit: Exiting.
-[2018.05.15-00.32.30:996][418]Log file closed, 05/14/18 20:32:30
+[2018.05.15-21.27.22:935][429]PIE: Error: Infinite Loop detected in  BP_Coin , asserted during  On Component Begin Overlap (CoinCollision) with the following  Call Stack
+[2018.05.15-21.27.23:169][429]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 2.661
+[2018.05.15-21.27.23:171][429]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.27.23:322][429]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.27.23:456][429]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.27.25:990][476]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-21.27.26:411][478]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-21.27.26:717][478]LogEditorTransaction: Undo Modify Component(s)
+[2018.05.15-21.27.27:055][478]LogEditorTransaction: Undo Edit Static Mesh
+[2018.05.15-21.27.27:951][492]LogEditorTransaction: Undo Staticmesh editor: Material changed
+[2018.05.15-21.28.37:033][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/Assets/3DModels/coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset" SILENT=true
+[2018.05.15-21.28.37:108][511]LogSavePackage: Save=35.49ms
+[2018.05.15-21.28.37:108][511]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/coin8DD7F573497AE60722ED439B08CDC211.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset'
+[2018.05.15-21.28.37:117][511]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/Assets/3DModels/coin.uasset
+[2018.05.15-21.29.51:817][562]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.15-21.29.51:873][562]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.29.51:874][562]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.05.15-21.29.51:885][562]LogPlayLevel: [PlayLevel] Compiling BP_Coin before play...
+[2018.05.15-21.29.51:896][562]LogPlayLevel: [PlayLevel]   Compiling Floor as a dependent...
+[2018.05.15-21.29.52:681][562]LogPlayLevel: PlayLevel: Blueprint regeneration took 807 ms (2 blueprints)
+[2018.05.15-21.29.52:681][562]PIE: New page: PIE session: SideScrollerExampleMap (May 15, 2018, 1:29:52 PM)
+[2018.05.15-21.29.52:683][562]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-21.29.52:721][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037736s)
+[2018.05.15-21.29.52:723][562]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-21.29.52:724][562]LogPlayLevel: PIE: World Init took: (0.003400s)
+[2018.05.15-21.29.52:727][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.044332s)
+[2018.05.15-21.29.52:773][562]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-21.29.52:801][562]LogInit: FAudioDevice initialized.
+[2018.05.15-21.29.52:850][562]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-21.29.52:856][562]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.15-17.29.52
+[2018.05.15-21.29.52:860][562]LogWorld: Bringing up level for play took: 0.008476
+[2018.05.15-21.29.53:040][562]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap 0.531
+[2018.05.15-21.29.53:041][562]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.30.14:759][ 36]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.30.14:898][ 36]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.30.39:236][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
+[2018.05.15-21.30.39:367][641]LogSavePackage: Save=81.24ms
+[2018.05.15-21.30.39:368][641]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Coin499B5C19442FC9AFF2183B93FFA33C01.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
+[2018.05.15-21.30.39:377][641]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
+[2018.05.15-21.36.23:347][666]LogSlate: Took 0.067203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2018.05.15-21.36.31:131][ 32]LogTemp: Dropped CoinsCollectedByPlayer on Category Scoring
+[2018.05.15-21.36.33:383][100]BlueprintLog: New page: Compile OGSideScrollerCharacter
+[2018.05.15-21.36.39:009][100]LogSavePackage: Save=680.36ms
+[2018.05.15-21.36.39:009][100]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/OGSideScrollerCharacterDDFB2BA84AE39C913CE8658EF2AA9084.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset'
+[2018.05.15-21.36.39:020][100]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset
+[2018.05.15-21.37.50:564][ 16]BlueprintLog: New page: Compile BP_Coin
+[2018.05.15-21.37.53:759][195]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
+[2018.05.15-21.37.53:893][195]LogSavePackage: Save=86.92ms
+[2018.05.15-21.37.53:893][195]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_CoinD91DB8734E5A151D8E22FAAC9EE30897.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
+[2018.05.15-21.37.53:904][195]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
+[2018.05.15-21.38.11:295][ 42]BlueprintLog: New page: Compile BP_Coin
+[2018.05.15-21.38.12:227][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
+[2018.05.15-21.38.12:324][ 42]LogSavePackage: Save=70.22ms
+[2018.05.15-21.38.12:325][ 42]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Coin421C124049FF2FD92F94BEA31645AF4D.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
+[2018.05.15-21.38.12:334][ 42]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
+[2018.05.15-21.38.19:793][686]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/PowerUpsAndCoins/BP_Coin" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset" SILENT=true
+[2018.05.15-21.38.19:896][686]LogSavePackage: Save=68.86ms
+[2018.05.15-21.38.19:896][686]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Coin7732D52D4132A80461D8A3A1B05F2003.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset'
+[2018.05.15-21.38.19:900][686]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Coin.uasset
+[2018.05.15-21.39.43:170][351]BlueprintLog: New page: Compile RestartGameInstance
+[2018.05.15-21.39.47:080][351]LogSavePackage: Save=33.70ms
+[2018.05.15-21.39.47:080][351]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/RestartGameInstance5A96B1674FA1A0BFEA29719E9D25E101.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/RestartGameInstance.uasset'
+[2018.05.15-21.39.47:093][351]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/RestartGameInstance.uasset
+[2018.05.15-21.39.48:430][434]LogSavePackage: Save=34.64ms
+[2018.05.15-21.39.48:431][434]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/RestartGameInstance246887064CD09478EE5ECBA776ECDF65.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/RestartGameInstance.uasset'
+[2018.05.15-21.39.48:436][434]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/RestartGameInstance.uasset
+[2018.05.15-21.42.55:972][470]BlueprintLog: New page: Compile SaveScoreSlot
+[2018.05.15-21.42.57:640][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/HUBs/Saves/SaveScoreSlot" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/SaveScoreSlot.uasset" SILENT=true
+[2018.05.15-21.42.57:753][539]LogSavePackage: Save=60.60ms
+[2018.05.15-21.42.57:753][539]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/SaveScoreSlot2590B7B148300B760479A9B587892D64.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/SaveScoreSlot.uasset'
+[2018.05.15-21.42.57:764][539]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/Saves/SaveScoreSlot.uasset
+[2018.05.15-21.43.25:348][213]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.15-21.44.25:308][295]BlueprintLog: New page: Compile OGSideScrollerCharacter
+[2018.05.15-21.44.29:787][295]LogSavePackage: Save=670.03ms
+[2018.05.15-21.44.29:788][295]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/OGSideScrollerCharacter4A57A9664C7929FA4018E88B94E9A0B8.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset'
+[2018.05.15-21.44.29:797][295]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset
+[2018.05.15-21.46.55:404][909]LogEditorTransaction: Undo Resize Node
+[2018.05.15-21.46.56:606][950]LogEditorTransaction: Undo Resize Node
+[2018.05.15-21.48.43:343][119]BlueprintLog: New page: Compile OGSideScrollerCharacter
+[2018.05.15-21.48.48:322][119]LogSavePackage: Save=664.64ms
+[2018.05.15-21.48.48:322][119]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/OGSideScrollerCharacter21DDA70247C88E975E1F63A7CDBB0CCC.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset'
+[2018.05.15-21.48.48:332][119]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset
+[2018.05.15-21.48.50:752][192]LogSavePackage: Save=651.70ms
+[2018.05.15-21.48.50:752][192]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/OGSideScrollerCharacter453E59B944826DF630223AA5CE5D3C3A.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset'
+[2018.05.15-21.48.50:757][192]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset
+[2018.05.15-21.49.45:756][324]LogSavePackage: Save=137.26ms
+[2018.05.15-21.49.45:756][324]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/SideScrollerExampleMap_Auto1ECC9D9DC4B8AEB0E3C154BACBCCD588C.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap'
+[2018.05.15-21.49.45:779][324]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Autosaves/Game/SideScrollerBP/Maps/SideScrollerExampleMap_Auto1.umap
+[2018.05.15-21.49.45:791][324]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/SideScrollerExampleMap' took 0.287
+[2018.05.15-21.49.45:791][324]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.287
+[2018.05.15-21.56.32:186][535]BlueprintLog: New page: Compile OGSideScrollerCharacter
+[2018.05.15-21.56.39:605][745]LogSlate: Took 0.142998 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2018.05.15-21.57.36:615][ 98]BlueprintLog: New page: Compile BP_HUD
+[2018.05.15-21.57.37:615][147]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.15-21.57.37:714][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.57.37:715][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-21.57.37:715][147]PIE: New page: PIE session: SideScrollerExampleMap (May 15, 2018, 1:57:37 PM)
+[2018.05.15-21.57.37:722][147]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-21.57.37:760][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038214s)
+[2018.05.15-21.57.37:762][147]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-21.57.37:762][147]LogPlayLevel: PIE: World Init took: (0.002161s)
+[2018.05.15-21.57.37:763][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.041208s)
+[2018.05.15-21.57.37:822][147]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-21.57.37:848][147]LogInit: FAudioDevice initialized.
+[2018.05.15-21.57.37:898][147]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-21.57.37:908][147]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.15-17.57.37
+[2018.05.15-21.57.37:911][147]LogWorld: Bringing up level for play took: 0.009607
+[2018.05.15-21.57.38:091][147]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.417
+[2018.05.15-21.57.38:093][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.58.39:487][288]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2018.05.15-21.58.39:523][288]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2018.05.15-21.58.39:618][288]Cmd: MEM
+[2018.05.15-21.58.39:664][288]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-21.58.39:664][288]LogMemory: Process Physical Memory: 1920.63 MB used, 2652.59 MB peak
+[2018.05.15-21.58.39:664][288]LogMemory: Process Virtual Memory: 3556.95 MB used, 3556.96 MB peak
+[2018.05.15-21.58.39:664][288]LogMemory: Physical Memory: 4915.07 MB used,  6828.05 MB free, 11743.12 MB total
+[2018.05.15-21.58.39:664][288]LogMemory: Virtual Memory: 4370.77 MB used,  6828.05 MB free, 134217728.00 MB total
+[2018.05.15-21.58.39:664][288]LogMemory: 
+[2018.05.15-21.58.39:664][288]Allocator Stats for TBB: (not implemented)
+[2018.05.15-21.58.39:664][288]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-21.58.39:699][288]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034954s)
+[2018.05.15-21.58.39:701][288]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-21.58.39:702][288]LogPlayLevel: PIE: World Init took: (0.002533s)
+[2018.05.15-21.58.39:702][288]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.038140s)
+[2018.05.15-21.58.39:702][288]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-21.58.39:708][288]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 0) at 2018.05.15-17.58.39
+[2018.05.15-21.58.39:711][288]LogWorld: Bringing up level for play took: 0.006831
+[2018.05.15-21.58.39:718][288]LogScript: Warning: Accessed None trying to read property songa
+	BP_MainMenu_C /Engine/Transient.UnrealEdEngine_0:RestartGameInstance_C_0.BP_MainMenu_C_2
+	Function /Game/RISE/HUBs/BP_MainMenu.BP_MainMenu_C:ExecuteUbergraph_BP_MainMenu:0015
+[2018.05.15-21.58.39:718][288]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property songa from function: 'ExecuteUbergraph_BP_MainMenu' from node: Stop in graph: EventGraph in object: BP_MainMenu with description: Accessed None trying to read property songa
+[2018.05.15-21.58.39:843][288]LogLoad: Took 0.319664 seconds to LoadMap(/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap)
+[2018.05.15-21.58.42:105][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-21.58.42:257][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-22.02.18:660][505]BlueprintLog: New page: Compile OGSideScrollerCharacter
+[2018.05.15-22.02.37:528][228]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.15-22.02.37:602][228]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-22.02.37:603][228]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.15-22.02.37:603][228]PIE: New page: PIE session: SideScrollerExampleMap (May 15, 2018, 2:02:37 PM)
+[2018.05.15-22.02.37:605][228]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-22.02.37:640][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035128s)
+[2018.05.15-22.02.37:643][228]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-22.02.37:643][228]LogPlayLevel: PIE: World Init took: (0.002593s)
+[2018.05.15-22.02.37:643][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.038425s)
+[2018.05.15-22.02.37:698][228]LogInit: XAudio2 using 'Speaker/Headphone (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.05.15-22.02.37:722][228]LogInit: FAudioDevice initialized.
+[2018.05.15-22.02.37:793][228]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-22.02.37:799][228]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2018.05.15-18.02.37
+[2018.05.15-22.02.37:802][228]LogWorld: Bringing up level for play took: 0.007233
+[2018.05.15-22.02.37:955][228]PIE: Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap -0.552
+[2018.05.15-22.02.37:956][228]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-22.03.34:138][729]LogNet: Browse: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2018.05.15-22.03.34:179][729]LogLoad: LoadMap: /Game/SideScrollerBP/Maps/SideScrollerExampleMap
+[2018.05.15-22.03.34:277][729]Cmd: MEM
+[2018.05.15-22.03.34:323][729]LogMemory: Platform Memory Stats for Windows
+[2018.05.15-22.03.34:323][729]LogMemory: Process Physical Memory: 1991.14 MB used, 2652.59 MB peak
+[2018.05.15-22.03.34:324][729]LogMemory: Process Virtual Memory: 3620.30 MB used, 3704.06 MB peak
+[2018.05.15-22.03.34:324][729]LogMemory: Physical Memory: 4996.93 MB used,  6746.19 MB free, 11743.12 MB total
+[2018.05.15-22.03.34:324][729]LogMemory: Virtual Memory: 4439.98 MB used,  6746.19 MB free, 134217728.00 MB total
+[2018.05.15-22.03.34:324][729]LogMemory: 
+[2018.05.15-22.03.34:324][729]Allocator Stats for TBB: (not implemented)
+[2018.05.15-22.03.34:324][729]LogPlayLevel: Creating play world package: /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap
+[2018.05.15-22.03.34:359][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034999s)
+[2018.05.15-22.03.34:361][729]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.05.15-22.03.34:362][729]LogPlayLevel: PIE: World Init took: (0.002695s)
+[2018.05.15-22.03.34:362][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap to /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap (0.038352s)
+[2018.05.15-22.03.34:362][729]LogLoad: Game class is 'OGSideScrollerGameMode_C'
+[2018.05.15-22.03.34:367][729]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap.SideScrollerExampleMap up for play (max tick rate 60) at 2018.05.15-18.03.34
+[2018.05.15-22.03.34:371][729]LogWorld: Bringing up level for play took: 0.006247
+[2018.05.15-22.03.34:378][729]LogScript: Warning: Accessed None trying to read property songa
+	BP_MainMenu_C /Engine/Transient.UnrealEdEngine_0:RestartGameInstance_C_1.BP_MainMenu_C_10
+	Function /Game/RISE/HUBs/BP_MainMenu.BP_MainMenu_C:ExecuteUbergraph_BP_MainMenu:0015
+[2018.05.15-22.03.34:378][729]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property songa from function: 'ExecuteUbergraph_BP_MainMenu' from node: Stop in graph: EventGraph in object: BP_MainMenu with description: Accessed None trying to read property songa
+[2018.05.15-22.03.34:498][729]LogLoad: Took 0.319296 seconds to LoadMap(/Game/SideScrollerBP/Maps/UEDPIE_0_SideScrollerExampleMap)
+[2018.05.15-22.03.36:496][770]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-22.03.36:636][770]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap' with GeneratedClass '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap_C' with ClassGeneratedBy '/Game/SideScrollerBP/Maps/SideScrollerExampleMap.SideScrollerExampleMap:PersistentLevel.SideScrollerExampleMap'
+[2018.05.15-22.05.55:125][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/HUBs/BP_HUD" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset" SILENT=true
+[2018.05.15-22.05.55:582][709]LogSavePackage: Save=391.63ms
+[2018.05.15-22.05.55:582][709]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_HUD84D86BF642E2E754C408B3BD2A69AF2A.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset'
+[2018.05.15-22.05.55:593][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_HUD.uasset
+[2018.05.15-22.05.55:605][709]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RISE/HUBs/BP_MainMenu" FILE="../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset" SILENT=true
+[2018.05.15-22.05.55:898][709]LogSavePackage: Save=233.96ms
+[2018.05.15-22.05.55:898][709]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_MainMenu437A9EC941943EEBD9950CB959A46DCC.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset'
+[2018.05.15-22.05.55:906][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/HUBs/BP_MainMenu.uasset
+[2018.05.15-22.05.56:167][709]LogSavePackage: Save=117.14ms
+[2018.05.15-22.05.56:168][709]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/BP_Teleport7F5D08774200F5228BB349AE8DFF5410.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Teleport.uasset'
+[2018.05.15-22.05.56:176][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/RISE/PowerUpsAndCoins/BP_Teleport.uasset
+[2018.05.15-22.05.57:237][709]LogSavePackage: Save=933.19ms
+[2018.05.15-22.05.57:238][709]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/OGSideScrollerCharacter7F68DC27402B82B15D32298A99E5821D.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset'
+[2018.05.15-22.05.57:248][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Blueprints/OGSideScrollerCharacter.uasset
+[2018.05.15-22.06.02:457][709]LogSavePackage: Save=160.46ms
+[2018.05.15-22.06.02:457][709]LogSavePackage: Moving '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/SideScrollerExampleMapE73AD1D848CE9D848F38E79D44BF893D.tmp' to '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap'
+[2018.05.15-22.06.02:468][709]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap
+[2018.05.15-22.06.02:603][709]LogFileHelpers: Saving map 'SideScrollerExampleMap' took 5.347
+[2018.05.15-22.07.46:792][618]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.05.15-22.07.47:277][619]Cmd: QUIT_EDITOR
+[2018.05.15-22.07.48:291][619]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-22.07.48:293][619]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.15-22.07.48:334][619]LogExit: Preparing to exit.
+[2018.05.15-22.07.49:597][619]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' was aborted.
+[2018.05.15-22.07.49:891][619]LogExit: Editor shut down
+[2018.05.15-22.07.49:957][619]LogExit: Transaction tracking system shut down
+[2018.05.15-22.07.50:552][619]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.05.15-22.07.50:552][619]LogDirectoryWatcher: A directory notification for '../../../../../../Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/' was aborted.
+[2018.05.15-22.07.50:952][619]LogExit: Object subsystem successfully closed.
+[2018.05.15-22.07.51:002][619]LogD3D11RHI: Shutdown
+[2018.05.15-22.07.51:002][619]LogD3D11RHI: CleanupD3DDevice
+[2018.05.15-22.07.51:553][619]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.05.15-22.07.51:679][619]LogModuleManager: Shutting down and abandoning module SequencerWidgets (502)
+[2018.05.15-22.07.51:680][619]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (500)
+[2018.05.15-22.07.51:680][619]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (498)
+[2018.05.15-22.07.51:680][619]LogModuleManager: Shutting down and abandoning module BlueprintGraph (496)
+[2018.05.15-22.07.51:680][619]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (494)
+[2018.05.15-22.07.51:686][619]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (492)
+[2018.05.15-22.07.51:686][619]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (490)
+[2018.05.15-22.07.51:686][619]LogModuleManager: Shutting down and abandoning module SceneOutliner (488)
+[2018.05.15-22.07.51:687][619]LogModuleManager: Shutting down and abandoning module AddContentDialog (486)
+[2018.05.15-22.07.51:687][619]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2018.05.15-22.07.51:706][619]LogModuleManager: Shutting down and abandoning module WidgetCarousel (485)
+[2018.05.15-22.07.51:706][619]LogModuleManager: Shutting down and abandoning module EditorWidgets (482)
+[2018.05.15-22.07.51:706][619]LogModuleManager: Shutting down and abandoning module CollectionManager (480)
+[2018.05.15-22.07.51:707][619]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Collections/' was aborted.
+[2018.05.15-22.07.51:707][619]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Content/Developers/MoltenOwl/Collections/' was aborted.
+[2018.05.15-22.07.51:707][619]LogDirectoryWatcher: A directory notification for 'C:/Users/MoltenOwl/Documents/GitHub/RISE-Mobile/RISE_GAME/Saved/Collections/' was aborted.
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module StatsViewer (478)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module FoliageEdit (476)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module LandscapeEditor (474)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module MeshPaintMode (472)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module MeshPaint (471)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (468)
+[2018.05.15-22.07.51:708][619]LogModuleManager: Shutting down and abandoning module ActorPickerMode (466)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module GeometryMode (464)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module TextureAlignMode (462)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module BspMode (460)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (458)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module HardwareSurvey (456)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (454)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module AutomationWorker (452)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (450)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (448)
+[2018.05.15-22.07.51:709][619]LogModuleManager: Shutting down and abandoning module PlacementMode (447)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (444)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (442)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (440)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module Media (439)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (436)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module CharacterAI (434)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module AudioCapture (432)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module SequenceRecorder (431)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module SessionServices (428)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module ViewportSnapping (426)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module ViewportInteraction (424)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module ClothPainter (422)
+[2018.05.15-22.07.51:710][619]LogModuleManager: Shutting down and abandoning module LogVisualizer (420)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module IntroTutorials (418)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (417)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (414)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (412)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (410)
+[2018.05.15-22.07.51:711][619]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (409)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (406)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (404)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (402)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module InputBindingEditor (400)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module MergeActors (398)
+[2018.05.15-22.07.52:533][619]LogModuleManager: Shutting down and abandoning module SizeMap (396)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module TreeMap (394)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module ReferenceViewer (392)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (390)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module LocalizationService (389)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module HardwareTargeting (386)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (384)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module UndoHistory (382)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module XmlParser (380)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module Blutility (378)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (376)
+[2018.05.15-22.07.52:534][619]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (375)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (372)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module SettingsEditor (370)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module ProjectLauncher (368)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module SessionFrontend (366)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module ProfilerClient (364)
+[2018.05.15-22.07.52:535][619]LogModuleManager: Shutting down and abandoning module DeviceManager (362)
+[2018.05.15-22.07.52:536][619]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (361)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module AutomationController (358)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module AutomationWindow (356)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module Layers (354)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (352)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module DetailCustomizations (350)
+[2018.05.15-22.07.52:589][619]LogModuleManager: Shutting down and abandoning module PackagesDialog (348)
+[2018.05.15-22.07.52:590][619]LogModuleManager: Shutting down and abandoning module Persona (346)
+[2018.05.15-22.07.52:590][619]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (345)
+[2018.05.15-22.07.52:590][619]LogModuleManager: Shutting down and abandoning module AnimGraph (343)
+[2018.05.15-22.07.52:590][619]LogModuleManager: Shutting down and abandoning module Kismet (340)
+[2018.05.15-22.07.52:622][619]LogModuleManager: Shutting down and abandoning module LevelEditor (339)
+[2018.05.15-22.07.52:625][619]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (338)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module ClassViewer (334)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module Toolbox (332)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module ModuleUI (330)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module MovieSceneTools (328)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module OutputLog (326)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module GammaUI (324)
+[2018.05.15-22.07.52:626][619]LogModuleManager: Shutting down and abandoning module Documentation (322)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (320)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module MovieScene (318)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module GeometryCache (316)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (315)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module Niagara (312)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module NiagaraEditor (311)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (308)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module LauncherPlatform (306)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module AnalyticsET (304)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module PortalServices (302)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module PortalRpc (300)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module MessagingRpc (298)
+[2018.05.15-22.07.52:627][619]LogModuleManager: Shutting down and abandoning module AIModule (296)
+[2018.05.15-22.07.52:628][619]LogModuleManager: Shutting down and abandoning module GameplayDebugger (295)
+[2018.05.15-22.07.52:628][619]LogModuleManager: Shutting down and abandoning module AITestSuite (293)
+[2018.05.15-22.07.52:628][619]LogModuleManager: Shutting down and abandoning module ProfilerService (290)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module TaskGraph (288)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module SlateRemote (286)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (284)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (282)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (280)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module CableComponent (278)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (276)
+[2018.05.15-22.07.52:719][619]LogModuleManager: Shutting down and abandoning module AndroidPermission (274)
+[2018.05.15-22.07.52:720][619]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (270)
+[2018.05.15-22.07.52:720][619]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (268)
+[2018.05.15-22.07.52:720][619]LogModuleManager: Shutting down and abandoning module PluginBrowser (266)
+[2018.05.15-22.07.52:723][619]LogModuleManager: Shutting down and abandoning module MainFrame (265)
+[2018.05.15-22.07.52:723][619]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2018.05.15-22.07.52:723][619]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (260)
+[2018.05.15-22.07.52:723][619]LogModuleManager: Shutting down and abandoning module DesktopPlatform (259)
+[2018.05.15-22.07.52:724][619]LogModuleManager: Shutting down and abandoning module HotReload (257)
+[2018.05.15-22.07.52:726][619]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2018.05.15-22.07.52:726][619]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (242)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (240)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (238)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (236)
+[2018.05.15-22.07.52:727][619]LogModuleManager: Shutting down and abandoning module UdpMessaging (234)
+[2018.05.15-22.07.52:828][619]LogModuleManager: Shutting down and abandoning module TcpMessaging (232)
+[2018.05.15-22.07.52:928][619]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (230)
+[2018.05.15-22.07.52:928][619]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (228)
+[2018.05.15-22.07.52:928][619]LogModuleManager: Shutting down and abandoning module GraphEditor (227)
+[2018.05.15-22.07.52:928][619]LogModuleManager: Shutting down and abandoning module ContentBrowser (225)
+[2018.05.15-22.07.52:932][619]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (222)
+[2018.05.15-22.07.52:932][619]LogModuleManager: Shutting down and abandoning module WmfMedia (220)
+[2018.05.15-22.07.52:936][619]LogModuleManager: Shutting down and abandoning module PacketHandler (218)
+[2018.05.15-22.07.52:936][619]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (216)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (214)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module Overlay (212)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module OverlayEditor (211)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module VREditor (206)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module StringTableEditor (204)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (202)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (200)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module FunctionalTesting (198)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (196)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (195)
+[2018.05.15-22.07.52:937][619]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module SlateReflector (182)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module Slate (180)
+[2018.05.15-22.07.52:938][619]LogModuleManager: Shutting down and abandoning module EditorStyle (178)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module MRMesh (176)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module KismetCompiler (160)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module LevelSequence (158)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module MeshUtilities (156)
+[2018.05.15-22.07.52:947][619]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (155)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (154)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (153)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (151)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (149)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module MaterialBaking (145)
+[2018.05.15-22.07.52:948][619]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (142)
+[2018.05.15-22.07.52:959][619]LogModuleManager: Shutting down and abandoning module DerivedDataCache (140)
+[2018.05.15-22.07.53:001][619]LogDerivedDataCache: Shutdown
+[2018.05.15-22.07.53:001][619]LogModuleManager: Shutting down and abandoning module TargetPlatform (138)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (137)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (135)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (133)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (131)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (129)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (127)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (125)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (123)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (121)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (119)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module ImageWrapper (118)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (115)
+[2018.05.15-22.07.53:002][619]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (113)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (111)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (109)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (107)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (105)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (103)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (101)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (99)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Messaging (97)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (95)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (93)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (91)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (89)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (87)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (85)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (83)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (81)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (79)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (77)
+[2018.05.15-22.07.53:003][619]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (75)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (73)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (71)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (69)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (67)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (65)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (63)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (61)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (59)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module InputCore (56)
+[2018.05.15-22.07.53:004][619]LogModuleManager: Shutting down and abandoning module Settings (54)
+[2018.05.15-22.07.53:005][619]LogModuleManager: Shutting down and abandoning module PhysXCooking (52)
+[2018.05.15-22.07.53:005][619]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.05.15-22.07.53:005][619]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.05.15-22.07.53:005][619]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.05.15-22.07.53:006][619]LogOnline: Display: Unloading online subsystem: NULL
+[2018.05.15-22.07.53:006][619]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.05.15-22.07.53:006][619]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.05.15-22.07.53:007][619]LogHttp: Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2018.05.15-22.07.53:007][619]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA00FBFA1-4904-C3A1-DA0B-D4852D3D2214%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=330c018a40119ac8aa6082a42e8f404e%7C88057b4134714c0f98d798880975d3e9%7C63e0c156-2a72-4222-bd44-364fd265f9e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.15-22.07.53:007][619]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BA00FBFA1-4904-C3A1-DA0B-D4852D3D2214%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.2-3658906%2B%2B%2BUE4%2BRelease-4.17&UserID=330c018a40119ac8aa6082a42e8f404e%7C88057b4134714c0f98d798880975d3e9%7C63e0c156-2a72-4222-bd44-364fd265f9e2&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.05.15-22.07.53:017][619]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.05.15-22.07.53:020][619]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2018.05.15-22.07.53:021][619]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2018.05.15-22.07.53:021][619]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2018.05.15-22.07.53:021][619]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2018.05.15-22.07.53:021][619]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2018.05.15-22.07.53:022][619]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2018.05.15-22.07.53:022][619]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2018.05.15-22.07.53:032][619]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2018.05.15-22.07.53:032][619]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2018.05.15-22.07.53:032][619]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.05.15-22.07.53:033][619]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.05.15-22.07.53:043][619]LogExit: Exiting.
+[2018.05.15-22.07.53:101][619]Log file closed, 05/15/18 18:07:53
